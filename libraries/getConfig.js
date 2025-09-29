@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 const env = dotenv.config().parsed
 
 const getConfig = async () => {
-  const config = await Config.findOne({_id: env.CONFIG_ID})
+  const config = await Config.findOne({_id: env.CONFIG_ID}).select('ppn rekening')
   if(!config) return false 
   return config
 }

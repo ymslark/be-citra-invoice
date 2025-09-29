@@ -40,8 +40,8 @@ class AuthController {
                 const user = await User.create({
                     fullname: req.body.fullname,
                     username: req.body.username,
-                    email: "",
-                    role: "",
+                    email: "dssd",
+                    role: req.body.role,
                     password: hash
                 })
                 if (!user) {throw ({code: 500, message: "USER_REGISTER_FAILED"})}
@@ -56,10 +56,12 @@ class AuthController {
                         .json({
                             status: true,
                             message: 'USER_REGISTER_SUCCESS',
-                            fullName: user.fullname,
-                            role: user.role,
                             accessToken,
-                            refreshToken
+                            refreshToken,
+                            user: {
+                                fullName: user.fullname,
+                                role: user.role,
+                            }
                         })
             } catch (error) {
                 console.log(error)
@@ -74,7 +76,8 @@ class AuthController {
     async login(req, res){
             try {
                 //if(!req.body.email) { throw { code: 400, message: 'EMAIL_IS_REQUIRED'}}
-                if(!req.body.username) { throw { code: 400, message: 'EMAIL_IS_REQUIRED'}}
+                console.log(req.body)
+                if(!req.body.username) { throw { code: 400, message: 'USERNAME_IS_REQUIRED'}}
                 if(!req.body.password) { throw { code: 400, message: 'PASSWORD_IS_REQUIRED'}}
                 
                 const user = await User.findOne({username: req.body.username})
@@ -83,7 +86,7 @@ class AuthController {
                 const isPasswordValid = await bcrypt.compareSync(req.body.password, user.password)
                 if(!isPasswordValid){throw {code:400, message: 'INVALID_PASSWORD'}}
 
-                const payload = {id: user.id, role:user.role}
+                const payload = {id: user._id, role:user.role}
 
                 const accessToken = await generateAccessToken(payload)
                 const refreshToken = await generateRefreshToken(payload)
@@ -92,10 +95,12 @@ class AuthController {
                             .json({
                                 status: true,
                                 message: 'USER_LOGIN_SUCCESS',
-                                fullname: user.fullname,
-                                role: user.role,
                                 accessToken: accessToken,
                                 refreshToken: refreshToken,
+                                user: {
+                                    fullName: user.fullname,
+                                    role: user.role,
+                                }
                             })
 
             } catch (error) {
@@ -113,6 +118,7 @@ class AuthController {
 
             //verify refresh token
             const verify = await jsonwebtoken.verify(req.body.refreshToken, env.JWT_REFRESH_TOKEN_SECRET)
+            const user = await User.findOne({ _id: verify.id })
             console.log(verify)
             const payload = {id: verify.id, role:verify.role}
             
@@ -123,9 +129,12 @@ class AuthController {
                             .json({
                                 status: true,
                                 message: 'REFRESH_TOKEN_SUCCESS',
-                                role: verify.role,
                                 accessToken: accessToken,
                                 refreshToken: refreshToken,
+                                user: {
+                                    fullName: user.fullname,
+                                    role: user.role,
+                                }
                             })
 
         }

@@ -1,0 +1,5995 @@
+{
+    "barang": [
+        {
+            "nama": "Rak Hijau",
+            "kode": "FUR-0001",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Mahoni",
+            "kode": "FUR-0002",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Elegan",
+            "kode": "FUR-0003",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Elegan",
+            "kode": "FUR-0004",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Pinus",
+            "kode": "FUR-0005",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Industrial",
+            "kode": "FUR-0006",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Biru",
+            "kode": "FUR-0007",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Kayu Pinus",
+            "kode": "FUR-0008",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Kayu Jati",
+            "kode": "FUR-0009",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Coklat",
+            "kode": "FUR-0010",
+            "satuan": "pcs"
+        },
+
+        {
+            "nama": "Nightstand Hitam",
+            "kode": "FUR-0012",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Kayu Mahoni",
+            "kode": "FUR-0013",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Aluminium",
+            "kode": "FUR-0014",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Aluminium",
+            "kode": "FUR-0015",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Besi",
+            "kode": "FUR-0016",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Klasik",
+            "kode": "FUR-0018",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Elegan",
+            "kode": "FUR-0019",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Kayu Jati",
+            "kode": "FUR-0020",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Klasik",
+            "kode": "FUR-0021",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Premium",
+            "kode": "FUR-0022",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Biru",
+            "kode": "FUR-0023",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Elegan",
+            "kode": "FUR-0024",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Minimalis",
+            "kode": "FUR-0025",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Klasik",
+            "kode": "FUR-0026",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Klasik",
+            "kode": "FUR-0027",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Premium",
+            "kode": "FUR-0028",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Elegan",
+            "kode": "FUR-0029",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Industrial",
+            "kode": "FUR-0030",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Premium",
+            "kode": "FUR-0031",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Klasik",
+            "kode": "FUR-0032",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Modern",
+            "kode": "FUR-0033",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Premium",
+            "kode": "FUR-0034",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kayu Jati",
+            "kode": "FUR-0035",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Modern",
+            "kode": "FUR-0036",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Biru",
+            "kode": "FUR-0037",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Putih",
+            "kode": "FUR-0038",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Pinus",
+            "kode": "FUR-0039",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Kayu Mahoni",
+            "kode": "FUR-0040",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Kayu Jati",
+            "kode": "FUR-0041",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Besi",
+            "kode": "FUR-0042",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Besi",
+            "kode": "FUR-0043",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Elegan",
+            "kode": "FUR-0044",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Coklat",
+            "kode": "FUR-0045",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Minimalis",
+            "kode": "FUR-0046",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Minimalis",
+            "kode": "FUR-0047",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Merah",
+            "kode": "FUR-0048",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Industrial",
+            "kode": "FUR-0049",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Ekonomis",
+            "kode": "FUR-0050",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Ekonomis",
+            "kode": "FUR-0051",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Besi",
+            "kode": "FUR-0052",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Premium",
+            "kode": "FUR-0053",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Besi",
+            "kode": "FUR-0054",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Biru",
+            "kode": "FUR-0055",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Besi",
+            "kode": "FUR-0056",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Coklat",
+            "kode": "FUR-0057",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Modern",
+            "kode": "FUR-0058",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Hijau",
+            "kode": "FUR-0059",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Coklat",
+            "kode": "FUR-0060",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Hitam",
+            "kode": "FUR-0061",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Elegan",
+            "kode": "FUR-0062",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Industrial",
+            "kode": "FUR-0063",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Mahoni",
+            "kode": "FUR-0064",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Ekonomis",
+            "kode": "FUR-0065",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Hijau",
+            "kode": "FUR-0066",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Besi",
+            "kode": "FUR-0067",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Aluminium",
+            "kode": "FUR-0068",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Merah",
+            "kode": "FUR-0069",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Minimalis",
+            "kode": "FUR-0070",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Merah",
+            "kode": "FUR-0071",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Premium",
+            "kode": "FUR-0072",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Putih",
+            "kode": "FUR-0073",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Kayu Mahoni",
+            "kode": "FUR-0074",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Aluminium",
+            "kode": "FUR-0075",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Merah",
+            "kode": "FUR-0076",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Klasik",
+            "kode": "FUR-0077",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Biru",
+            "kode": "FUR-0078",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Elegan",
+            "kode": "FUR-0079",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Aluminium",
+            "kode": "FUR-0080",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Ekonomis",
+            "kode": "FUR-0081",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Aluminium",
+            "kode": "FUR-0082",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Aluminium",
+            "kode": "FUR-0083",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Besi",
+            "kode": "FUR-0084",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Merah",
+            "kode": "FUR-0085",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Modern",
+            "kode": "FUR-0086",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Minimalis",
+            "kode": "FUR-0087",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Biru",
+            "kode": "FUR-0088",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Ekonomis",
+            "kode": "FUR-0089",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Biru",
+            "kode": "FUR-0090",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Minimalis",
+            "kode": "FUR-0091",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kayu Pinus",
+            "kode": "FUR-0092",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Modern",
+            "kode": "FUR-0093",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Besi",
+            "kode": "FUR-0094",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Biru",
+            "kode": "FUR-0095",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Minimalis",
+            "kode": "FUR-0096",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Pinus",
+            "kode": "FUR-0097",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Besi",
+            "kode": "FUR-0098",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Aluminium",
+            "kode": "FUR-0099",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Klasik",
+            "kode": "FUR-0100",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Minimalis",
+            "kode": "FUR-0101",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Elegan",
+            "kode": "FUR-0102",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Kayu Jati",
+            "kode": "FUR-0103",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Elegan",
+            "kode": "FUR-0104",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Premium",
+            "kode": "FUR-0105",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Ekonomis",
+            "kode": "FUR-0106",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Modern",
+            "kode": "FUR-0107",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Minimalis",
+            "kode": "FUR-0108",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Industrial",
+            "kode": "FUR-0109",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Pinus",
+            "kode": "FUR-0110",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Kayu Jati",
+            "kode": "FUR-0111",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Elegan",
+            "kode": "FUR-0112",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Mahoni",
+            "kode": "FUR-0113",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Minimalis",
+            "kode": "FUR-0114",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Elegan",
+            "kode": "FUR-0115",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Premium",
+            "kode": "FUR-0116",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Kayu Jati",
+            "kode": "FUR-0117",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Aluminium",
+            "kode": "FUR-0118",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Elegan",
+            "kode": "FUR-0119",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Biru",
+            "kode": "FUR-0120",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Pinus",
+            "kode": "FUR-0121",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Besi",
+            "kode": "FUR-0122",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Industrial",
+            "kode": "FUR-0123",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Modern",
+            "kode": "FUR-0124",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Hijau",
+            "kode": "FUR-0125",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Putih",
+            "kode": "FUR-0126",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Putih",
+            "kode": "FUR-0127",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Putih",
+            "kode": "FUR-0128",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Premium",
+            "kode": "FUR-0129",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Aluminium",
+            "kode": "FUR-0130",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Coklat",
+            "kode": "FUR-0131",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Hitam",
+            "kode": "FUR-0132",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Kayu Pinus",
+            "kode": "FUR-0133",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Biru",
+            "kode": "FUR-0134",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Hitam",
+            "kode": "FUR-0135",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Premium",
+            "kode": "FUR-0136",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Aluminium",
+            "kode": "FUR-0137",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Merah",
+            "kode": "FUR-0138",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Minimalis",
+            "kode": "FUR-0139",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Kayu Jati",
+            "kode": "FUR-0140",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Putih",
+            "kode": "FUR-0141",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Kayu Pinus",
+            "kode": "FUR-0142",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Hitam",
+            "kode": "FUR-0143",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Aluminium",
+            "kode": "FUR-0144",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Minimalis",
+            "kode": "FUR-0145",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Minimalis",
+            "kode": "FUR-0146",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Merah",
+            "kode": "FUR-0147",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Mahoni",
+            "kode": "FUR-0148",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Coklat",
+            "kode": "FUR-0149",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Hitam",
+            "kode": "FUR-0150",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Kayu Pinus",
+            "kode": "FUR-0151",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Kayu Pinus",
+            "kode": "FUR-0152",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Aluminium",
+            "kode": "FUR-0153",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Elegan",
+            "kode": "FUR-0154",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Merah",
+            "kode": "FUR-0155",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Elegan",
+            "kode": "FUR-0156",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Pinus",
+            "kode": "FUR-0157",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Minimalis",
+            "kode": "FUR-0158",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Hijau",
+            "kode": "FUR-0159",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Putih",
+            "kode": "FUR-0160",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Merah",
+            "kode": "FUR-0161",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Hijau",
+            "kode": "FUR-0162",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Biru",
+            "kode": "FUR-0163",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Merah",
+            "kode": "FUR-0164",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Putih",
+            "kode": "FUR-0165",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Modern",
+            "kode": "FUR-0166",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Hijau",
+            "kode": "FUR-0167",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Elegan",
+            "kode": "FUR-0168",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Modern",
+            "kode": "FUR-0169",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Elegan",
+            "kode": "FUR-0170",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Klasik",
+            "kode": "FUR-0171",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Putih",
+            "kode": "FUR-0172",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Hitam",
+            "kode": "FUR-0173",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Klasik",
+            "kode": "FUR-0174",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Elegan",
+            "kode": "FUR-0175",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Premium",
+            "kode": "FUR-0176",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Aluminium",
+            "kode": "FUR-0177",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Kayu Pinus",
+            "kode": "FUR-0178",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Jati",
+            "kode": "FUR-0179",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Modern",
+            "kode": "FUR-0180",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Biru",
+            "kode": "FUR-0181",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Elegan",
+            "kode": "FUR-0182",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Pinus",
+            "kode": "FUR-0183",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Elegan",
+            "kode": "FUR-0184",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Ekonomis",
+            "kode": "FUR-0185",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Elegan",
+            "kode": "FUR-0186",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Klasik",
+            "kode": "FUR-0187",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Merah",
+            "kode": "FUR-0188",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Putih",
+            "kode": "FUR-0189",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Merah",
+            "kode": "FUR-0190",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Elegan",
+            "kode": "FUR-0191",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Biru",
+            "kode": "FUR-0192",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Biru",
+            "kode": "FUR-0193",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Biru",
+            "kode": "FUR-0194",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Aluminium",
+            "kode": "FUR-0195",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Aluminium",
+            "kode": "FUR-0196",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Coklat",
+            "kode": "FUR-0197",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Elegan",
+            "kode": "FUR-0198",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Hitam",
+            "kode": "FUR-0199",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Merah",
+            "kode": "FUR-0200",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Merah",
+            "kode": "FUR-0201",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Hitam",
+            "kode": "FUR-0202",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Premium",
+            "kode": "FUR-0203",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Elegan",
+            "kode": "FUR-0204",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Ekonomis",
+            "kode": "FUR-0205",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Minimalis",
+            "kode": "FUR-0206",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Biru",
+            "kode": "FUR-0207",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Modern",
+            "kode": "FUR-0208",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Minimalis",
+            "kode": "FUR-0209",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Coklat",
+            "kode": "FUR-0210",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Elegan",
+            "kode": "FUR-0211",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Kayu Pinus",
+            "kode": "FUR-0212",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Premium",
+            "kode": "FUR-0213",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Besi",
+            "kode": "FUR-0214",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Kayu Pinus",
+            "kode": "FUR-0215",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Biru",
+            "kode": "FUR-0216",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Minimalis",
+            "kode": "FUR-0217",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Besi",
+            "kode": "FUR-0218",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Industrial",
+            "kode": "FUR-0219",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Putih",
+            "kode": "FUR-0220",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Aluminium",
+            "kode": "FUR-0221",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Minimalis",
+            "kode": "FUR-0222",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Putih",
+            "kode": "FUR-0223",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Putih",
+            "kode": "FUR-0224",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Hijau",
+            "kode": "FUR-0225",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Mahoni",
+            "kode": "FUR-0226",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Coklat",
+            "kode": "FUR-0227",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Minimalis",
+            "kode": "FUR-0228",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Premium",
+            "kode": "FUR-0229",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Klasik",
+            "kode": "FUR-0230",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kayu Mahoni",
+            "kode": "FUR-0231",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Kayu Pinus",
+            "kode": "FUR-0232",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Kayu Pinus",
+            "kode": "FUR-0233",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Ekonomis",
+            "kode": "FUR-0234",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Besi",
+            "kode": "FUR-0235",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Hitam",
+            "kode": "FUR-0236",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Merah",
+            "kode": "FUR-0237",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Merah",
+            "kode": "FUR-0238",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Klasik",
+            "kode": "FUR-0239",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Klasik",
+            "kode": "FUR-0240",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Premium",
+            "kode": "FUR-0241",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Industrial",
+            "kode": "FUR-0242",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Ekonomis",
+            "kode": "FUR-0243",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Kayu Mahoni",
+            "kode": "FUR-0244",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Merah",
+            "kode": "FUR-0245",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Putih",
+            "kode": "FUR-0246",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Besi",
+            "kode": "FUR-0247",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Premium",
+            "kode": "FUR-0248",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Klasik",
+            "kode": "FUR-0249",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Premium",
+            "kode": "FUR-0250",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Putih",
+            "kode": "FUR-0251",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Pinus",
+            "kode": "FUR-0252",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Ekonomis",
+            "kode": "FUR-0253",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Hijau",
+            "kode": "FUR-0254",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Besi",
+            "kode": "FUR-0255",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Klasik",
+            "kode": "FUR-0256",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Aluminium",
+            "kode": "FUR-0257",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Hitam",
+            "kode": "FUR-0258",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Biru",
+            "kode": "FUR-0259",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Industrial",
+            "kode": "FUR-0260",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Pinus",
+            "kode": "FUR-0261",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Modern",
+            "kode": "FUR-0262",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Klasik",
+            "kode": "FUR-0263",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Kayu Jati",
+            "kode": "FUR-0264",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Ekonomis",
+            "kode": "FUR-0265",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Minimalis",
+            "kode": "FUR-0266",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Hitam",
+            "kode": "FUR-0267",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Hijau",
+            "kode": "FUR-0268",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Industrial",
+            "kode": "FUR-0269",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Elegan",
+            "kode": "FUR-0270",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Industrial",
+            "kode": "FUR-0271",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Besi",
+            "kode": "FUR-0272",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Kayu Jati",
+            "kode": "FUR-0273",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Besi",
+            "kode": "FUR-0274",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Biru",
+            "kode": "FUR-0275",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Ekonomis",
+            "kode": "FUR-0276",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Besi",
+            "kode": "FUR-0277",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Industrial",
+            "kode": "FUR-0278",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Elegan",
+            "kode": "FUR-0279",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Biru",
+            "kode": "FUR-0280",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Modern",
+            "kode": "FUR-0281",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Aluminium",
+            "kode": "FUR-0282",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Modern",
+            "kode": "FUR-0283",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Biru",
+            "kode": "FUR-0284",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Kayu Pinus",
+            "kode": "FUR-0285",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Coklat",
+            "kode": "FUR-0286",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Klasik",
+            "kode": "FUR-0287",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Mahoni",
+            "kode": "FUR-0288",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Modern",
+            "kode": "FUR-0289",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Klasik",
+            "kode": "FUR-0290",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Hitam",
+            "kode": "FUR-0291",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Ekonomis",
+            "kode": "FUR-0292",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Industrial",
+            "kode": "FUR-0293",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Biru",
+            "kode": "FUR-0294",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Premium",
+            "kode": "FUR-0295",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kayu Pinus",
+            "kode": "FUR-0296",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Ekonomis",
+            "kode": "FUR-0297",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Merah",
+            "kode": "FUR-0298",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Kayu Pinus",
+            "kode": "FUR-0299",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Modern",
+            "kode": "FUR-0300",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Hitam",
+            "kode": "FUR-0301",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Premium",
+            "kode": "FUR-0302",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Coklat",
+            "kode": "FUR-0303",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Hitam",
+            "kode": "FUR-0304",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Ekonomis",
+            "kode": "FUR-0305",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Biru",
+            "kode": "FUR-0306",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Biru",
+            "kode": "FUR-0307",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Premium",
+            "kode": "FUR-0308",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Merah",
+            "kode": "FUR-0309",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Ekonomis",
+            "kode": "FUR-0310",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Putih",
+            "kode": "FUR-0311",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Modern",
+            "kode": "FUR-0312",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Hitam",
+            "kode": "FUR-0313",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Merah",
+            "kode": "FUR-0314",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Coklat",
+            "kode": "FUR-0315",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Ekonomis",
+            "kode": "FUR-0316",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Putih",
+            "kode": "FUR-0317",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Modern",
+            "kode": "FUR-0318",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Elegan",
+            "kode": "FUR-0319",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Modern",
+            "kode": "FUR-0320",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Kayu Jati",
+            "kode": "FUR-0321",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Coklat",
+            "kode": "FUR-0322",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Industrial",
+            "kode": "FUR-0323",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Ekonomis",
+            "kode": "FUR-0324",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Putih",
+            "kode": "FUR-0325",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Klasik",
+            "kode": "FUR-0326",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Industrial",
+            "kode": "FUR-0327",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Aluminium",
+            "kode": "FUR-0328",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Besi",
+            "kode": "FUR-0329",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Biru",
+            "kode": "FUR-0330",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Biru",
+            "kode": "FUR-0331",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Ekonomis",
+            "kode": "FUR-0332",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kayu Mahoni",
+            "kode": "FUR-0333",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Jati",
+            "kode": "FUR-0334",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Hijau",
+            "kode": "FUR-0335",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Industrial",
+            "kode": "FUR-0336",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Elegan",
+            "kode": "FUR-0337",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Putih",
+            "kode": "FUR-0338",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Kayu Mahoni",
+            "kode": "FUR-0339",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Elegan",
+            "kode": "FUR-0340",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Hijau",
+            "kode": "FUR-0341",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Aluminium",
+            "kode": "FUR-0342",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Mahoni",
+            "kode": "FUR-0343",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Elegan",
+            "kode": "FUR-0344",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Biru",
+            "kode": "FUR-0345",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Hijau",
+            "kode": "FUR-0346",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Hitam",
+            "kode": "FUR-0347",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Ekonomis",
+            "kode": "FUR-0348",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Aluminium",
+            "kode": "FUR-0349",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Ekonomis",
+            "kode": "FUR-0350",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Kayu Pinus",
+            "kode": "FUR-0351",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Minimalis",
+            "kode": "FUR-0352",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Hitam",
+            "kode": "FUR-0353",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Ekonomis",
+            "kode": "FUR-0354",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Kayu Pinus",
+            "kode": "FUR-0355",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Pinus",
+            "kode": "FUR-0356",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Jati",
+            "kode": "FUR-0357",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Minimalis",
+            "kode": "FUR-0358",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Aluminium",
+            "kode": "FUR-0359",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Hijau",
+            "kode": "FUR-0360",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Kayu Pinus",
+            "kode": "FUR-0361",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Aluminium",
+            "kode": "FUR-0362",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Jati",
+            "kode": "FUR-0363",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Hitam",
+            "kode": "FUR-0364",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Hitam",
+            "kode": "FUR-0365",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Premium",
+            "kode": "FUR-0366",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Premium",
+            "kode": "FUR-0367",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Minimalis",
+            "kode": "FUR-0368",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Klasik",
+            "kode": "FUR-0369",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Ekonomis",
+            "kode": "FUR-0370",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Biru",
+            "kode": "FUR-0371",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Premium",
+            "kode": "FUR-0372",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Mahoni",
+            "kode": "FUR-0373",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Elegan",
+            "kode": "FUR-0374",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Elegan",
+            "kode": "FUR-0375",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Ekonomis",
+            "kode": "FUR-0376",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Putih",
+            "kode": "FUR-0377",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Mahoni",
+            "kode": "FUR-0378",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Hijau",
+            "kode": "FUR-0379",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Kayu Mahoni",
+            "kode": "FUR-0380",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Elegan",
+            "kode": "FUR-0381",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Elegan",
+            "kode": "FUR-0382",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Coklat",
+            "kode": "FUR-0383",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Besi",
+            "kode": "FUR-0384",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Modern",
+            "kode": "FUR-0385",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Klasik",
+            "kode": "FUR-0386",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Modern",
+            "kode": "FUR-0387",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Putih",
+            "kode": "FUR-0388",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Elegan",
+            "kode": "FUR-0389",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Jati",
+            "kode": "FUR-0390",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Klasik",
+            "kode": "FUR-0391",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Industrial",
+            "kode": "FUR-0392",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Aluminium",
+            "kode": "FUR-0393",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Aluminium",
+            "kode": "FUR-0394",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Aluminium",
+            "kode": "FUR-0395",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Kayu Mahoni",
+            "kode": "FUR-0396",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Merah",
+            "kode": "FUR-0397",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Kayu Jati",
+            "kode": "FUR-0398",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Putih",
+            "kode": "FUR-0399",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Minimalis",
+            "kode": "FUR-0400",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Coklat",
+            "kode": "FUR-0401",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Industrial",
+            "kode": "FUR-0402",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Klasik",
+            "kode": "FUR-0403",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Ekonomis",
+            "kode": "FUR-0404",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Hijau",
+            "kode": "FUR-0405",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Putih",
+            "kode": "FUR-0406",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Minimalis",
+            "kode": "FUR-0407",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Putih",
+            "kode": "FUR-0408",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Kayu Mahoni",
+            "kode": "FUR-0409",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Elegan",
+            "kode": "FUR-0410",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Ekonomis",
+            "kode": "FUR-0411",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Klasik",
+            "kode": "FUR-0412",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Coklat",
+            "kode": "FUR-0413",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Elegan",
+            "kode": "FUR-0414",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Putih",
+            "kode": "FUR-0415",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Besi",
+            "kode": "FUR-0416",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Kayu Jati",
+            "kode": "FUR-0417",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Ekonomis",
+            "kode": "FUR-0418",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Merah",
+            "kode": "FUR-0419",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Putih",
+            "kode": "FUR-0420",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Kayu Pinus",
+            "kode": "FUR-0421",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Modern",
+            "kode": "FUR-0422",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Premium",
+            "kode": "FUR-0423",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Industrial",
+            "kode": "FUR-0424",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Elegan",
+            "kode": "FUR-0425",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Aluminium",
+            "kode": "FUR-0426",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Putih",
+            "kode": "FUR-0427",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Premium",
+            "kode": "FUR-0428",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Industrial",
+            "kode": "FUR-0429",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Biru",
+            "kode": "FUR-0430",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Biru",
+            "kode": "FUR-0431",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Biru",
+            "kode": "FUR-0432",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Industrial",
+            "kode": "FUR-0433",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Elegan",
+            "kode": "FUR-0434",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Putih",
+            "kode": "FUR-0435",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Kayu Jati",
+            "kode": "FUR-0436",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Premium",
+            "kode": "FUR-0437",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Ekonomis",
+            "kode": "FUR-0438",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Besi",
+            "kode": "FUR-0439",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Putih",
+            "kode": "FUR-0440",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Putih",
+            "kode": "FUR-0441",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Merah",
+            "kode": "FUR-0442",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Hitam",
+            "kode": "FUR-0443",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Minimalis",
+            "kode": "FUR-0444",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Merah",
+            "kode": "FUR-0445",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Jati",
+            "kode": "FUR-0446",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Hijau",
+            "kode": "FUR-0447",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Coklat",
+            "kode": "FUR-0448",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Aluminium",
+            "kode": "FUR-0449",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Merah",
+            "kode": "FUR-0450",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kayu Pinus",
+            "kode": "FUR-0451",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Elegan",
+            "kode": "FUR-0452",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Mahoni",
+            "kode": "FUR-0453",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Besi",
+            "kode": "FUR-0454",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Coklat",
+            "kode": "FUR-0455",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Premium",
+            "kode": "FUR-0456",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Premium",
+            "kode": "FUR-0457",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Kayu Jati",
+            "kode": "FUR-0458",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Kayu Mahoni",
+            "kode": "FUR-0459",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Aluminium",
+            "kode": "FUR-0460",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Premium",
+            "kode": "FUR-0461",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Kayu Pinus",
+            "kode": "FUR-0462",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Minimalis",
+            "kode": "FUR-0463",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Elegan",
+            "kode": "FUR-0464",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Biru",
+            "kode": "FUR-0465",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Minimalis",
+            "kode": "FUR-0466",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Mahoni",
+            "kode": "FUR-0467",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Elegan",
+            "kode": "FUR-0468",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Coklat",
+            "kode": "FUR-0469",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Putih",
+            "kode": "FUR-0470",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Aluminium",
+            "kode": "FUR-0471",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Hijau",
+            "kode": "FUR-0472",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Hitam",
+            "kode": "FUR-0473",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Besi",
+            "kode": "FUR-0474",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Hijau",
+            "kode": "FUR-0475",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Kayu Mahoni",
+            "kode": "FUR-0476",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Industrial",
+            "kode": "FUR-0477",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Merah",
+            "kode": "FUR-0478",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Besi",
+            "kode": "FUR-0479",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Putih",
+            "kode": "FUR-0480",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Besi",
+            "kode": "FUR-0481",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Ekonomis",
+            "kode": "FUR-0482",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Hijau",
+            "kode": "FUR-0483",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Ekonomis",
+            "kode": "FUR-0484",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Besi",
+            "kode": "FUR-0485",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Ekonomis",
+            "kode": "FUR-0486",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Biru",
+            "kode": "FUR-0487",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Modern",
+            "kode": "FUR-0488",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Pinus",
+            "kode": "FUR-0489",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Hitam",
+            "kode": "FUR-0490",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Modern",
+            "kode": "FUR-0491",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Besi",
+            "kode": "FUR-0492",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Hitam",
+            "kode": "FUR-0493",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Klasik",
+            "kode": "FUR-0494",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Industrial",
+            "kode": "FUR-0495",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Jati",
+            "kode": "FUR-0496",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Coklat",
+            "kode": "FUR-0497",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Besi",
+            "kode": "FUR-0498",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Biru",
+            "kode": "FUR-0499",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Coklat",
+            "kode": "FUR-0500",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Biru",
+            "kode": "FUR-0501",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Merah",
+            "kode": "FUR-0502",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Premium",
+            "kode": "FUR-0503",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Putih",
+            "kode": "FUR-0504",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Klasik",
+            "kode": "FUR-0505",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Merah",
+            "kode": "FUR-0506",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Klasik",
+            "kode": "FUR-0507",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Hitam",
+            "kode": "FUR-0508",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Industrial",
+            "kode": "FUR-0509",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Coklat",
+            "kode": "FUR-0510",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Industrial",
+            "kode": "FUR-0511",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Merah",
+            "kode": "FUR-0512",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Putih",
+            "kode": "FUR-0513",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Modern",
+            "kode": "FUR-0514",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Hitam",
+            "kode": "FUR-0515",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Elegan",
+            "kode": "FUR-0516",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Minimalis",
+            "kode": "FUR-0517",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Kayu Pinus",
+            "kode": "FUR-0518",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Pinus",
+            "kode": "FUR-0519",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Kayu Mahoni",
+            "kode": "FUR-0520",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Elegan",
+            "kode": "FUR-0521",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Putih",
+            "kode": "FUR-0522",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Aluminium",
+            "kode": "FUR-0523",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Industrial",
+            "kode": "FUR-0524",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Elegan",
+            "kode": "FUR-0525",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Besi",
+            "kode": "FUR-0526",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Industrial",
+            "kode": "FUR-0527",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Coklat",
+            "kode": "FUR-0528",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Industrial",
+            "kode": "FUR-0529",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Pinus",
+            "kode": "FUR-0530",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Modern",
+            "kode": "FUR-0531",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Besi",
+            "kode": "FUR-0532",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Hitam",
+            "kode": "FUR-0533",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Minimalis",
+            "kode": "FUR-0534",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Putih",
+            "kode": "FUR-0535",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Elegan",
+            "kode": "FUR-0536",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Minimalis",
+            "kode": "FUR-0537",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Pinus",
+            "kode": "FUR-0538",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Coklat",
+            "kode": "FUR-0539",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Modern",
+            "kode": "FUR-0540",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Hijau",
+            "kode": "FUR-0541",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Ekonomis",
+            "kode": "FUR-0542",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Besi",
+            "kode": "FUR-0543",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Coklat",
+            "kode": "FUR-0544",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Mahoni",
+            "kode": "FUR-0545",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Putih",
+            "kode": "FUR-0546",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Aluminium",
+            "kode": "FUR-0547",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Coklat",
+            "kode": "FUR-0548",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Mahoni",
+            "kode": "FUR-0549",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Mahoni",
+            "kode": "FUR-0550",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Putih",
+            "kode": "FUR-0551",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Ekonomis",
+            "kode": "FUR-0552",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Biru",
+            "kode": "FUR-0553",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Industrial",
+            "kode": "FUR-0554",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Putih",
+            "kode": "FUR-0555",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Merah",
+            "kode": "FUR-0556",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Coklat",
+            "kode": "FUR-0557",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Pinus",
+            "kode": "FUR-0558",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Klasik",
+            "kode": "FUR-0559",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Ekonomis",
+            "kode": "FUR-0560",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Hijau",
+            "kode": "FUR-0561",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Coklat",
+            "kode": "FUR-0562",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Industrial",
+            "kode": "FUR-0563",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Modern",
+            "kode": "FUR-0564",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Biru",
+            "kode": "FUR-0565",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Kayu Jati",
+            "kode": "FUR-0566",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Pinus",
+            "kode": "FUR-0567",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Kayu Pinus",
+            "kode": "FUR-0568",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Industrial",
+            "kode": "FUR-0569",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Coklat",
+            "kode": "FUR-0570",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Kayu Jati",
+            "kode": "FUR-0571",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Modern",
+            "kode": "FUR-0572",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Besi",
+            "kode": "FUR-0573",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Modern",
+            "kode": "FUR-0574",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Besi",
+            "kode": "FUR-0575",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Hijau",
+            "kode": "FUR-0576",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Elegan",
+            "kode": "FUR-0577",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Elegan",
+            "kode": "FUR-0578",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Hijau",
+            "kode": "FUR-0579",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Premium",
+            "kode": "FUR-0580",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Coklat",
+            "kode": "FUR-0581",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Industrial",
+            "kode": "FUR-0582",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Elegan",
+            "kode": "FUR-0583",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Hijau",
+            "kode": "FUR-0584",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Elegan",
+            "kode": "FUR-0585",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Biru",
+            "kode": "FUR-0586",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Besi",
+            "kode": "FUR-0587",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Premium",
+            "kode": "FUR-0588",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Hitam",
+            "kode": "FUR-0589",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Ekonomis",
+            "kode": "FUR-0590",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Hitam",
+            "kode": "FUR-0591",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Industrial",
+            "kode": "FUR-0592",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Modern",
+            "kode": "FUR-0593",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Hitam",
+            "kode": "FUR-0594",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Besi",
+            "kode": "FUR-0595",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Coklat",
+            "kode": "FUR-0596",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Ekonomis",
+            "kode": "FUR-0597",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Minimalis",
+            "kode": "FUR-0598",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Aluminium",
+            "kode": "FUR-0599",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Ekonomis",
+            "kode": "FUR-0600",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Hitam",
+            "kode": "FUR-0601",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Ekonomis",
+            "kode": "FUR-0602",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Pinus",
+            "kode": "FUR-0603",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Industrial",
+            "kode": "FUR-0604",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Coklat",
+            "kode": "FUR-0605",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Ekonomis",
+            "kode": "FUR-0606",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Merah",
+            "kode": "FUR-0607",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Klasik",
+            "kode": "FUR-0608",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Modern",
+            "kode": "FUR-0609",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Biru",
+            "kode": "FUR-0610",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Klasik",
+            "kode": "FUR-0611",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Ekonomis",
+            "kode": "FUR-0612",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Industrial",
+            "kode": "FUR-0613",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Merah",
+            "kode": "FUR-0614",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Klasik",
+            "kode": "FUR-0615",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Hitam",
+            "kode": "FUR-0616",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Putih",
+            "kode": "FUR-0617",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Minimalis",
+            "kode": "FUR-0618",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Biru",
+            "kode": "FUR-0619",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Industrial",
+            "kode": "FUR-0620",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Elegan",
+            "kode": "FUR-0621",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Aluminium",
+            "kode": "FUR-0622",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Minimalis",
+            "kode": "FUR-0623",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Modern",
+            "kode": "FUR-0624",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Pinus",
+            "kode": "FUR-0625",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Putih",
+            "kode": "FUR-0626",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Kayu Pinus",
+            "kode": "FUR-0627",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Kayu Mahoni",
+            "kode": "FUR-0628",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Coklat",
+            "kode": "FUR-0629",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Klasik",
+            "kode": "FUR-0630",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Biru",
+            "kode": "FUR-0631",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Minimalis",
+            "kode": "FUR-0632",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Modern",
+            "kode": "FUR-0633",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Coklat",
+            "kode": "FUR-0634",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Kayu Pinus",
+            "kode": "FUR-0635",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Ekonomis",
+            "kode": "FUR-0636",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Besi",
+            "kode": "FUR-0637",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Jati",
+            "kode": "FUR-0638",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Kayu Jati",
+            "kode": "FUR-0639",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Putih",
+            "kode": "FUR-0640",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Kayu Mahoni",
+            "kode": "FUR-0641",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Besi",
+            "kode": "FUR-0642",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Minimalis",
+            "kode": "FUR-0643",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Putih",
+            "kode": "FUR-0644",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Ekonomis",
+            "kode": "FUR-0645",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Elegan",
+            "kode": "FUR-0646",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Putih",
+            "kode": "FUR-0647",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Coklat",
+            "kode": "FUR-0648",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Modern",
+            "kode": "FUR-0649",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Putih",
+            "kode": "FUR-0650",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Aluminium",
+            "kode": "FUR-0651",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Mahoni",
+            "kode": "FUR-0652",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Hijau",
+            "kode": "FUR-0653",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Minimalis",
+            "kode": "FUR-0654",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Klasik",
+            "kode": "FUR-0655",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Besi",
+            "kode": "FUR-0656",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Hijau",
+            "kode": "FUR-0657",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Coklat",
+            "kode": "FUR-0658",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Jati",
+            "kode": "FUR-0659",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Premium",
+            "kode": "FUR-0660",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Hitam",
+            "kode": "FUR-0661",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Elegan",
+            "kode": "FUR-0662",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Merah",
+            "kode": "FUR-0663",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Biru",
+            "kode": "FUR-0664",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Kayu Pinus",
+            "kode": "FUR-0665",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Aluminium",
+            "kode": "FUR-0666",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Premium",
+            "kode": "FUR-0667",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Premium",
+            "kode": "FUR-0668",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Minimalis",
+            "kode": "FUR-0669",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Biru",
+            "kode": "FUR-0670",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Industrial",
+            "kode": "FUR-0671",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Premium",
+            "kode": "FUR-0672",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Kayu Pinus",
+            "kode": "FUR-0673",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Putih",
+            "kode": "FUR-0674",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Putih",
+            "kode": "FUR-0675",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Industrial",
+            "kode": "FUR-0676",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Kayu Pinus",
+            "kode": "FUR-0677",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Hitam",
+            "kode": "FUR-0678",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Industrial",
+            "kode": "FUR-0679",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Industrial",
+            "kode": "FUR-0680",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Putih",
+            "kode": "FUR-0681",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Kayu Mahoni",
+            "kode": "FUR-0682",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Coklat",
+            "kode": "FUR-0683",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Industrial",
+            "kode": "FUR-0684",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Kayu Jati",
+            "kode": "FUR-0685",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Modern",
+            "kode": "FUR-0686",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Modern",
+            "kode": "FUR-0687",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Besi",
+            "kode": "FUR-0688",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Aluminium",
+            "kode": "FUR-0689",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Besi",
+            "kode": "FUR-0690",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Hijau",
+            "kode": "FUR-0691",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Biru",
+            "kode": "FUR-0692",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Premium",
+            "kode": "FUR-0693",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Besi",
+            "kode": "FUR-0694",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Coklat",
+            "kode": "FUR-0695",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Minimalis",
+            "kode": "FUR-0696",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Minimalis",
+            "kode": "FUR-0697",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Ekonomis",
+            "kode": "FUR-0698",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Industrial",
+            "kode": "FUR-0699",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Elegan",
+            "kode": "FUR-0700",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Hijau",
+            "kode": "FUR-0701",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Merah",
+            "kode": "FUR-0702",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Industrial",
+            "kode": "FUR-0703",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Biru",
+            "kode": "FUR-0704",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Pinus",
+            "kode": "FUR-0705",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Ekonomis",
+            "kode": "FUR-0706",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Besi",
+            "kode": "FUR-0707",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Besi",
+            "kode": "FUR-0708",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Kayu Jati",
+            "kode": "FUR-0709",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Jati",
+            "kode": "FUR-0710",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Hitam",
+            "kode": "FUR-0711",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Modern",
+            "kode": "FUR-0712",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Hitam",
+            "kode": "FUR-0713",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Klasik",
+            "kode": "FUR-0714",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Premium",
+            "kode": "FUR-0715",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Industrial",
+            "kode": "FUR-0716",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kayu Mahoni",
+            "kode": "FUR-0717",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Merah",
+            "kode": "FUR-0718",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Pinus",
+            "kode": "FUR-0719",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Ekonomis",
+            "kode": "FUR-0720",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Kayu Pinus",
+            "kode": "FUR-0721",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Hijau",
+            "kode": "FUR-0722",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Elegan",
+            "kode": "FUR-0723",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Elegan",
+            "kode": "FUR-0724",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Klasik",
+            "kode": "FUR-0725",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Pinus",
+            "kode": "FUR-0726",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Aluminium",
+            "kode": "FUR-0727",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Industrial",
+            "kode": "FUR-0728",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Jati",
+            "kode": "FUR-0729",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Modern",
+            "kode": "FUR-0730",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Minimalis",
+            "kode": "FUR-0731",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Modern",
+            "kode": "FUR-0732",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Hijau",
+            "kode": "FUR-0733",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Pinus",
+            "kode": "FUR-0734",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Merah",
+            "kode": "FUR-0735",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Hitam",
+            "kode": "FUR-0736",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Coklat",
+            "kode": "FUR-0737",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Minimalis",
+            "kode": "FUR-0738",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Besi",
+            "kode": "FUR-0739",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Hitam",
+            "kode": "FUR-0740",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Aluminium",
+            "kode": "FUR-0741",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Minimalis",
+            "kode": "FUR-0742",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Premium",
+            "kode": "FUR-0743",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Pinus",
+            "kode": "FUR-0744",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Premium",
+            "kode": "FUR-0745",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Modern",
+            "kode": "FUR-0746",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Jati",
+            "kode": "FUR-0747",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Hitam",
+            "kode": "FUR-0748",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Putih",
+            "kode": "FUR-0749",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Merah",
+            "kode": "FUR-0750",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Elegan",
+            "kode": "FUR-0751",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Modern",
+            "kode": "FUR-0752",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Ekonomis",
+            "kode": "FUR-0753",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Hitam",
+            "kode": "FUR-0754",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Putih",
+            "kode": "FUR-0755",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Ekonomis",
+            "kode": "FUR-0756",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kayu Pinus",
+            "kode": "FUR-0757",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Hijau",
+            "kode": "FUR-0758",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Putih",
+            "kode": "FUR-0759",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Pinus",
+            "kode": "FUR-0760",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Klasik",
+            "kode": "FUR-0761",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Coklat",
+            "kode": "FUR-0762",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Minimalis",
+            "kode": "FUR-0763",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Kayu Pinus",
+            "kode": "FUR-0764",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Putih",
+            "kode": "FUR-0765",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Biru",
+            "kode": "FUR-0766",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Elegan",
+            "kode": "FUR-0767",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Besi",
+            "kode": "FUR-0768",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Elegan",
+            "kode": "FUR-0769",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Jati",
+            "kode": "FUR-0770",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Hitam",
+            "kode": "FUR-0771",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Premium",
+            "kode": "FUR-0772",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Aluminium",
+            "kode": "FUR-0773",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Kayu Jati",
+            "kode": "FUR-0774",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Putih",
+            "kode": "FUR-0775",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Besi",
+            "kode": "FUR-0776",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Hitam",
+            "kode": "FUR-0777",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Putih",
+            "kode": "FUR-0778",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Industrial",
+            "kode": "FUR-0779",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Kayu Mahoni",
+            "kode": "FUR-0780",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Premium",
+            "kode": "FUR-0781",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Premium",
+            "kode": "FUR-0782",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Hijau",
+            "kode": "FUR-0783",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Mahoni",
+            "kode": "FUR-0784",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Hijau",
+            "kode": "FUR-0785",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Ekonomis",
+            "kode": "FUR-0786",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Besi",
+            "kode": "FUR-0787",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Merah",
+            "kode": "FUR-0788",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Hitam",
+            "kode": "FUR-0789",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Besi",
+            "kode": "FUR-0790",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Pinus",
+            "kode": "FUR-0791",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Modern",
+            "kode": "FUR-0792",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Merah",
+            "kode": "FUR-0793",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Biru",
+            "kode": "FUR-0794",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Modern",
+            "kode": "FUR-0795",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Industrial",
+            "kode": "FUR-0796",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Hijau",
+            "kode": "FUR-0797",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Industrial",
+            "kode": "FUR-0798",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Coklat",
+            "kode": "FUR-0799",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Elegan",
+            "kode": "FUR-0800",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Elegan",
+            "kode": "FUR-0801",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Putih",
+            "kode": "FUR-0802",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Biru",
+            "kode": "FUR-0803",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Coklat",
+            "kode": "FUR-0804",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Elegan",
+            "kode": "FUR-0805",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Pinus",
+            "kode": "FUR-0806",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Ekonomis",
+            "kode": "FUR-0807",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Modern",
+            "kode": "FUR-0808",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Mahoni",
+            "kode": "FUR-0809",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Ekonomis",
+            "kode": "FUR-0810",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Minimalis",
+            "kode": "FUR-0811",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Industrial",
+            "kode": "FUR-0812",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Minimalis",
+            "kode": "FUR-0813",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Coklat",
+            "kode": "FUR-0814",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Premium",
+            "kode": "FUR-0815",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Hitam",
+            "kode": "FUR-0816",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Industrial",
+            "kode": "FUR-0817",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Besi",
+            "kode": "FUR-0818",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Biru",
+            "kode": "FUR-0819",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Besi",
+            "kode": "FUR-0820",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Klasik",
+            "kode": "FUR-0821",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Ekonomis",
+            "kode": "FUR-0822",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Biru",
+            "kode": "FUR-0823",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Jati",
+            "kode": "FUR-0824",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Premium",
+            "kode": "FUR-0825",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Klasik",
+            "kode": "FUR-0826",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Minimalis",
+            "kode": "FUR-0827",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Industrial",
+            "kode": "FUR-0828",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Kayu Jati",
+            "kode": "FUR-0829",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Klasik",
+            "kode": "FUR-0830",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Modern",
+            "kode": "FUR-0831",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Hijau",
+            "kode": "FUR-0832",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Minimalis",
+            "kode": "FUR-0833",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Hitam",
+            "kode": "FUR-0834",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Klasik",
+            "kode": "FUR-0835",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Biru",
+            "kode": "FUR-0836",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Industrial",
+            "kode": "FUR-0837",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Industrial",
+            "kode": "FUR-0838",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Elegan",
+            "kode": "FUR-0839",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Putih",
+            "kode": "FUR-0840",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Minimalis",
+            "kode": "FUR-0841",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Industrial",
+            "kode": "FUR-0842",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Industrial",
+            "kode": "FUR-0843",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Besi",
+            "kode": "FUR-0844",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Hijau",
+            "kode": "FUR-0845",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Besi",
+            "kode": "FUR-0846",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Elegan",
+            "kode": "FUR-0847",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Modern",
+            "kode": "FUR-0848",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Hitam",
+            "kode": "FUR-0849",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Putih",
+            "kode": "FUR-0850",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Besi",
+            "kode": "FUR-0851",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Coklat",
+            "kode": "FUR-0852",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Aluminium",
+            "kode": "FUR-0853",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Merah",
+            "kode": "FUR-0854",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Kayu Pinus",
+            "kode": "FUR-0855",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Elegan",
+            "kode": "FUR-0856",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Coklat",
+            "kode": "FUR-0857",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Industrial",
+            "kode": "FUR-0858",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Hijau",
+            "kode": "FUR-0859",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Pinus",
+            "kode": "FUR-0860",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Putih",
+            "kode": "FUR-0861",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Kayu Mahoni",
+            "kode": "FUR-0862",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Aluminium",
+            "kode": "FUR-0863",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Hitam",
+            "kode": "FUR-0864",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Industrial",
+            "kode": "FUR-0865",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Putih",
+            "kode": "FUR-0866",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Biru",
+            "kode": "FUR-0867",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Mahoni",
+            "kode": "FUR-0868",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Merah",
+            "kode": "FUR-0869",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Aluminium",
+            "kode": "FUR-0870",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Minimalis",
+            "kode": "FUR-0871",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Merah",
+            "kode": "FUR-0872",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Coklat",
+            "kode": "FUR-0873",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Kayu Jati",
+            "kode": "FUR-0874",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Ekonomis",
+            "kode": "FUR-0875",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Modern",
+            "kode": "FUR-0876",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Coklat",
+            "kode": "FUR-0877",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Premium",
+            "kode": "FUR-0878",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Industrial",
+            "kode": "FUR-0879",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Industrial",
+            "kode": "FUR-0880",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Industrial",
+            "kode": "FUR-0881",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Merah",
+            "kode": "FUR-0882",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Industrial",
+            "kode": "FUR-0883",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Coklat",
+            "kode": "FUR-0884",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Hijau",
+            "kode": "FUR-0885",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Kayu Mahoni",
+            "kode": "FUR-0886",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Hitam",
+            "kode": "FUR-0887",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Pinus",
+            "kode": "FUR-0888",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Premium",
+            "kode": "FUR-0889",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Biru",
+            "kode": "FUR-0890",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Putih",
+            "kode": "FUR-0891",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Aluminium",
+            "kode": "FUR-0892",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Aluminium",
+            "kode": "FUR-0893",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Putih",
+            "kode": "FUR-0894",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Besi",
+            "kode": "FUR-0895",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Hijau",
+            "kode": "FUR-0896",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Modern",
+            "kode": "FUR-0897",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Aluminium",
+            "kode": "FUR-0898",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Pinus",
+            "kode": "FUR-0899",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Elegan",
+            "kode": "FUR-0900",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Merah",
+            "kode": "FUR-0901",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Klasik",
+            "kode": "FUR-0902",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Putih",
+            "kode": "FUR-0903",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Klasik",
+            "kode": "FUR-0904",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Merah",
+            "kode": "FUR-0905",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Elegan",
+            "kode": "FUR-0906",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Besi",
+            "kode": "FUR-0907",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Aluminium",
+            "kode": "FUR-0908",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Putih",
+            "kode": "FUR-0909",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Industrial",
+            "kode": "FUR-0910",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Kayu Pinus",
+            "kode": "FUR-0911",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Kayu Pinus",
+            "kode": "FUR-0912",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Modern",
+            "kode": "FUR-0913",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Merah",
+            "kode": "FUR-0914",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Merah",
+            "kode": "FUR-0915",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Klasik",
+            "kode": "FUR-0916",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Putih",
+            "kode": "FUR-0917",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Kayu Jati",
+            "kode": "FUR-0918",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Besi",
+            "kode": "FUR-0919",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Kayu Mahoni",
+            "kode": "FUR-0920",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Modern",
+            "kode": "FUR-0921",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Pinus",
+            "kode": "FUR-0922",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Premium",
+            "kode": "FUR-0923",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Industrial",
+            "kode": "FUR-0924",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Hijau",
+            "kode": "FUR-0925",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Elegan",
+            "kode": "FUR-0926",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Premium",
+            "kode": "FUR-0927",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Kayu Pinus",
+            "kode": "FUR-0928",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Elegan",
+            "kode": "FUR-0929",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Putih",
+            "kode": "FUR-0930",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Industrial",
+            "kode": "FUR-0931",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Elegan",
+            "kode": "FUR-0932",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Klasik",
+            "kode": "FUR-0933",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Aluminium",
+            "kode": "FUR-0934",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Ekonomis",
+            "kode": "FUR-0935",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Kayu Mahoni",
+            "kode": "FUR-0936",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Mahoni",
+            "kode": "FUR-0937",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Putih",
+            "kode": "FUR-0938",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Klasik",
+            "kode": "FUR-0939",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Industrial",
+            "kode": "FUR-0940",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Modern",
+            "kode": "FUR-0941",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Coklat",
+            "kode": "FUR-0942",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Hijau",
+            "kode": "FUR-0943",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Minimalis",
+            "kode": "FUR-0944",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Hitam",
+            "kode": "FUR-0945",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Coklat",
+            "kode": "FUR-0946",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Minimalis",
+            "kode": "FUR-0947",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Coklat",
+            "kode": "FUR-0948",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Hijau",
+            "kode": "FUR-0949",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Pinus",
+            "kode": "FUR-0950",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Biru",
+            "kode": "FUR-0951",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Aluminium",
+            "kode": "FUR-0952",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Putih",
+            "kode": "FUR-0953",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Putih",
+            "kode": "FUR-0954",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Hijau",
+            "kode": "FUR-0955",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Hijau",
+            "kode": "FUR-0956",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Merah",
+            "kode": "FUR-0957",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Coklat",
+            "kode": "FUR-0958",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Minimalis",
+            "kode": "FUR-0959",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Kayu Mahoni",
+            "kode": "FUR-0960",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Hijau",
+            "kode": "FUR-0961",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Modern",
+            "kode": "FUR-0962",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Industrial",
+            "kode": "FUR-0963",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Biru",
+            "kode": "FUR-0964",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Elegan",
+            "kode": "FUR-0965",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Premium",
+            "kode": "FUR-0966",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Besi",
+            "kode": "FUR-0967",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Merah",
+            "kode": "FUR-0968",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Industrial",
+            "kode": "FUR-0969",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Pinus",
+            "kode": "FUR-0970",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Minimalis",
+            "kode": "FUR-0971",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Coklat",
+            "kode": "FUR-0972",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Industrial",
+            "kode": "FUR-0973",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Modern",
+            "kode": "FUR-0974",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Biru",
+            "kode": "FUR-0975",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Coklat",
+            "kode": "FUR-0976",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Klasik",
+            "kode": "FUR-0977",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Kayu Pinus",
+            "kode": "FUR-0978",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Mahoni",
+            "kode": "FUR-0979",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Kayu Pinus",
+            "kode": "FUR-0980",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Hijau",
+            "kode": "FUR-0981",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Minimalis",
+            "kode": "FUR-0982",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Kayu Pinus",
+            "kode": "FUR-0983",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Pinus",
+            "kode": "FUR-0984",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Industrial",
+            "kode": "FUR-0985",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Modern",
+            "kode": "FUR-0986",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Klasik",
+            "kode": "FUR-0987",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Minimalis",
+            "kode": "FUR-0988",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Klasik",
+            "kode": "FUR-0989",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Aluminium",
+            "kode": "FUR-0990",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Ekonomis",
+            "kode": "FUR-0991",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Elegan",
+            "kode": "FUR-0992",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Hijau",
+            "kode": "FUR-0993",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Minimalis",
+            "kode": "FUR-0994",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Hijau",
+            "kode": "FUR-0995",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Putih",
+            "kode": "FUR-0996",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Kayu Mahoni",
+            "kode": "FUR-0997",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Besi",
+            "kode": "FUR-0998",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Besi",
+            "kode": "FUR-0999",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Modern",
+            "kode": "FUR-1000",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Ekonomis",
+            "kode": "FUR-1001",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Kayu Pinus",
+            "kode": "FUR-1002",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Besi",
+            "kode": "FUR-1003",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Kayu Pinus",
+            "kode": "FUR-1004",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Industrial",
+            "kode": "FUR-1005",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kayu Jati",
+            "kode": "FUR-1006",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Industrial",
+            "kode": "FUR-1007",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Modern",
+            "kode": "FUR-1008",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Putih",
+            "kode": "FUR-1009",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Coklat",
+            "kode": "FUR-1010",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Putih",
+            "kode": "FUR-1011",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Minimalis",
+            "kode": "FUR-1012",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Kayu Pinus",
+            "kode": "FUR-1013",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Putih",
+            "kode": "FUR-1014",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Kayu Pinus",
+            "kode": "FUR-1015",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Industrial",
+            "kode": "FUR-1016",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Ekonomis",
+            "kode": "FUR-1017",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Minimalis",
+            "kode": "FUR-1018",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Modern",
+            "kode": "FUR-1019",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Merah",
+            "kode": "FUR-1020",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Hijau",
+            "kode": "FUR-1021",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Putih",
+            "kode": "FUR-1022",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Minimalis",
+            "kode": "FUR-1023",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Elegan",
+            "kode": "FUR-1024",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Putih",
+            "kode": "FUR-1025",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Jati",
+            "kode": "FUR-1026",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Premium",
+            "kode": "FUR-1027",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Minimalis",
+            "kode": "FUR-1028",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Kayu Jati",
+            "kode": "FUR-1029",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Klasik",
+            "kode": "FUR-1030",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Elegan",
+            "kode": "FUR-1031",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Minimalis",
+            "kode": "FUR-1032",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Klasik",
+            "kode": "FUR-1033",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Industrial",
+            "kode": "FUR-1034",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Aluminium",
+            "kode": "FUR-1035",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Premium",
+            "kode": "FUR-1036",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Kayu Jati",
+            "kode": "FUR-1037",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Hijau",
+            "kode": "FUR-1038",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Hijau",
+            "kode": "FUR-1039",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Industrial",
+            "kode": "FUR-1040",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Aluminium",
+            "kode": "FUR-1041",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Minimalis",
+            "kode": "FUR-1042",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Aluminium",
+            "kode": "FUR-1043",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Merah",
+            "kode": "FUR-1044",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Putih",
+            "kode": "FUR-1045",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Klasik",
+            "kode": "FUR-1046",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Merah",
+            "kode": "FUR-1047",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Hijau",
+            "kode": "FUR-1048",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Industrial",
+            "kode": "FUR-1049",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Biru",
+            "kode": "FUR-1050",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Klasik",
+            "kode": "FUR-1051",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Merah",
+            "kode": "FUR-1052",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Industrial",
+            "kode": "FUR-1053",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Premium",
+            "kode": "FUR-1054",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Biru",
+            "kode": "FUR-1055",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Hitam",
+            "kode": "FUR-1056",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Minimalis",
+            "kode": "FUR-1057",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Klasik",
+            "kode": "FUR-1058",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Aluminium",
+            "kode": "FUR-1059",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Aluminium",
+            "kode": "FUR-1060",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Merah",
+            "kode": "FUR-1061",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Industrial",
+            "kode": "FUR-1062",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Elegan",
+            "kode": "FUR-1063",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Merah",
+            "kode": "FUR-1064",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Kayu Jati",
+            "kode": "FUR-1065",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Elegan",
+            "kode": "FUR-1066",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Putih",
+            "kode": "FUR-1067",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Modern",
+            "kode": "FUR-1068",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Kayu Pinus",
+            "kode": "FUR-1069",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Aluminium",
+            "kode": "FUR-1070",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Ekonomis",
+            "kode": "FUR-1071",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Modern",
+            "kode": "FUR-1072",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Minimalis",
+            "kode": "FUR-1073",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Coklat",
+            "kode": "FUR-1074",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Hijau",
+            "kode": "FUR-1075",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Klasik",
+            "kode": "FUR-1076",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Klasik",
+            "kode": "FUR-1077",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Kayu Mahoni",
+            "kode": "FUR-1078",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Ekonomis",
+            "kode": "FUR-1079",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Kayu Pinus",
+            "kode": "FUR-1080",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Ekonomis",
+            "kode": "FUR-1081",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Elegan",
+            "kode": "FUR-1082",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Putih",
+            "kode": "FUR-1083",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Ekonomis",
+            "kode": "FUR-1084",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Premium",
+            "kode": "FUR-1085",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Kayu Pinus",
+            "kode": "FUR-1086",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Biru",
+            "kode": "FUR-1087",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Coklat",
+            "kode": "FUR-1088",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kayu Jati",
+            "kode": "FUR-1089",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Coklat",
+            "kode": "FUR-1090",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Klasik",
+            "kode": "FUR-1091",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Coklat",
+            "kode": "FUR-1092",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Besi",
+            "kode": "FUR-1093",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Ekonomis",
+            "kode": "FUR-1094",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Premium",
+            "kode": "FUR-1095",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Elegan",
+            "kode": "FUR-1096",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Merah",
+            "kode": "FUR-1097",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Hitam",
+            "kode": "FUR-1098",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Kayu Jati",
+            "kode": "FUR-1099",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Kayu Mahoni",
+            "kode": "FUR-1100",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Mahoni",
+            "kode": "FUR-1101",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Besi",
+            "kode": "FUR-1102",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Aluminium",
+            "kode": "FUR-1103",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Hitam",
+            "kode": "FUR-1104",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Premium",
+            "kode": "FUR-1105",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Klasik",
+            "kode": "FUR-1106",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Putih",
+            "kode": "FUR-1107",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Hijau",
+            "kode": "FUR-1108",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Elegan",
+            "kode": "FUR-1109",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Putih",
+            "kode": "FUR-1110",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Besi",
+            "kode": "FUR-1111",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Pinus",
+            "kode": "FUR-1112",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Hitam",
+            "kode": "FUR-1113",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Kayu Pinus",
+            "kode": "FUR-1114",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Hitam",
+            "kode": "FUR-1115",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Hitam",
+            "kode": "FUR-1116",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Minimalis",
+            "kode": "FUR-1117",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Hitam",
+            "kode": "FUR-1118",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Hijau",
+            "kode": "FUR-1119",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Modern",
+            "kode": "FUR-1120",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Modern",
+            "kode": "FUR-1121",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Minimalis",
+            "kode": "FUR-1122",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Modern",
+            "kode": "FUR-1123",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Premium",
+            "kode": "FUR-1124",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Elegan",
+            "kode": "FUR-1125",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Aluminium",
+            "kode": "FUR-1126",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Putih",
+            "kode": "FUR-1127",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Klasik",
+            "kode": "FUR-1128",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Tempat Tidur Hitam",
+            "kode": "FUR-1129",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Hijau",
+            "kode": "FUR-1130",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Kayu Mahoni",
+            "kode": "FUR-1131",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Ekonomis",
+            "kode": "FUR-1132",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Kayu Pinus",
+            "kode": "FUR-1133",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Klasik",
+            "kode": "FUR-1134",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Premium",
+            "kode": "FUR-1135",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Modern",
+            "kode": "FUR-1136",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Minimalis",
+            "kode": "FUR-1137",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Kayu Mahoni",
+            "kode": "FUR-1138",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Hitam",
+            "kode": "FUR-1139",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Aluminium",
+            "kode": "FUR-1140",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Coklat",
+            "kode": "FUR-1141",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Coklat",
+            "kode": "FUR-1142",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Premium",
+            "kode": "FUR-1143",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Besi",
+            "kode": "FUR-1144",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Kayu Jati",
+            "kode": "FUR-1145",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Hijau",
+            "kode": "FUR-1146",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Coklat",
+            "kode": "FUR-1147",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Pinus",
+            "kode": "FUR-1148",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Merah",
+            "kode": "FUR-1149",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Kayu Jati",
+            "kode": "FUR-1150",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Hitam",
+            "kode": "FUR-1151",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Klasik",
+            "kode": "FUR-1152",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Ekonomis",
+            "kode": "FUR-1153",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Elegan",
+            "kode": "FUR-1154",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Kayu Pinus",
+            "kode": "FUR-1155",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Industrial",
+            "kode": "FUR-1156",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Biru",
+            "kode": "FUR-1157",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Kayu Jati",
+            "kode": "FUR-1158",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Kayu Pinus",
+            "kode": "FUR-1159",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Kayu Mahoni",
+            "kode": "FUR-1160",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Klasik",
+            "kode": "FUR-1161",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Elegan",
+            "kode": "FUR-1162",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Hijau",
+            "kode": "FUR-1163",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kabinet Hijau",
+            "kode": "FUR-1164",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Merah",
+            "kode": "FUR-1165",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Kursi Kayu Mahoni",
+            "kode": "FUR-1166",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Kayu Jati",
+            "kode": "FUR-1167",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Modern",
+            "kode": "FUR-1168",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja TV Ekonomis",
+            "kode": "FUR-1169",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Premium",
+            "kode": "FUR-1170",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Putih",
+            "kode": "FUR-1171",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Kayu Pinus",
+            "kode": "FUR-1172",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Elegan",
+            "kode": "FUR-1173",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Biru",
+            "kode": "FUR-1174",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Ekonomis",
+            "kode": "FUR-1175",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Biru",
+            "kode": "FUR-1176",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Buku Klasik",
+            "kode": "FUR-1177",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Tamu Kayu Jati",
+            "kode": "FUR-1178",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kayu Pinus",
+            "kode": "FUR-1179",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Rak Sepatu Aluminium",
+            "kode": "FUR-1180",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Nightstand Kayu Jati",
+            "kode": "FUR-1181",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Coklat",
+            "kode": "FUR-1182",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Klasik",
+            "kode": "FUR-1183",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Buffet Minimalis",
+            "kode": "FUR-1184",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Drawer Industrial",
+            "kode": "FUR-1185",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Kayu Pinus",
+            "kode": "FUR-1186",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Coklat",
+            "kode": "FUR-1187",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Hitam",
+            "kode": "FUR-1188",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Belajar Minimalis",
+            "kode": "FUR-1189",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Besi",
+            "kode": "FUR-1190",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Lemari Hitam",
+            "kode": "FUR-1191",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Rias Kayu Mahoni",
+            "kode": "FUR-1192",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Bangku Elegan",
+            "kode": "FUR-1193",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Konsul Aluminium",
+            "kode": "FUR-1194",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Merah",
+            "kode": "FUR-1195",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Hitam",
+            "kode": "FUR-1196",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Credenza Hitam",
+            "kode": "FUR-1197",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Kayu Jati",
+            "kode": "FUR-1198",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Meja Kerja Klasik",
+            "kode": "FUR-1199",
+            "satuan": "pcs"
+        },
+        {
+            "nama": "Sofa Hijau",
+            "kode": "FUR-1200",
+            "satuan": "pcs"
+        }
+    ]
+}

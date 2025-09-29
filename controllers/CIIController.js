@@ -1,5 +1,6 @@
 import mongoose from "mongoose"
 import CII from '../models/CII.js'
+import dayjs from "dayjs"
 import storeLog from "../libraries/storeLog.js"
 import Log from '../models/Log.js'
 import Config from '../models/Config.js'
@@ -16,11 +17,42 @@ class CIIController {
       const limit = req.query.limit || 5
       const page  = req.query.page || 1
       const CIIs = await CII.paginate({isActive:true,},
-                                    { select: 'tujuan tanggal',
+                                    { select: '_id tujuan tanggal no_seri status',
                                       sort: 'no_seri',
                                       limit: limit,
                                       page : page })
       if(!CIIs) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
+      return res.status(200)
+              .json({
+                  status: true,
+                  message: "DOCUMENT_FOUND",
+                  total: CIIs.totalDocs,
+                  ...CIIs})
+    }catch(error){
+            console.log(error)
+            return res.status(error.code || 500)
+                    .json({
+                        status: false,
+                        message: error.message
+      })
+    }
+  }
+
+  async documentLast30Days(req,res){
+    try {
+      
+      const today = dayjs().format('YYYY-MM-DD');
+      const thirtyDaysAgo = dayjs().subtract(30, 'day').format('YYYY-MM-DD');
+
+      const limit = req.query.limit || 5
+      const page  = req.query.page || 1
+      const CIIs = await CII.paginate({ tanggal: { $gte: thirtyDaysAgo, $lte: today }, isActive:true},
+                                    { select: '_id tujuan tanggal no_seri status',
+                                      sort: {no_seri: -1},
+                                      limit: limit,
+                                      page : page })
+      if(!CIIs) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
+      console.log(CIIs)
       return res.status(200)
               .json({
                   status: true,
@@ -125,17 +157,19 @@ class CIIController {
   async store(req,res){
     try {
       var form = req.body
-      let requiredProperty = ['tanggal', 'tujuan', 'tempo','tanggal_tempo','catatan_tempo', 'hal',
-                                'ppn','interior', 'instalasi', 'ongkos_kirim']
+      let requiredProperty = ['tanggal', 'tujuan', 'tempo', 'hal',
+                                'ppn','interior', 'instalasi', 'ongkos_kirim', 'no_hp']
       let checkedProperty = checkProperty(req.body,requiredProperty)      
       
       let data = {...checkedProperty}
+      data['tanggal_tempo'] = req.body.tanggal_tempo
+      data['catatan_tempo'] = req.body.catatan_tempo
       if(form.catatan) data['catatan'] = form.catatan
 
 
       requiredProperty = ['atas_nama','no_rekening','nama_bank', ]
 
-      data.rekening = checkProperty(form, requiredProperty)
+      data['rekening']= checkProperty(form, requiredProperty)
 
       data['interior'] = checkInterior(form.interior)
       
@@ -206,18 +240,20 @@ class CIIController {
       const doc = await CII.findOne({_id: req.params.id})
       if(!doc) throw {code: 400, message:'INVALID_ID'}
       var form = req.body
-      let requiredProperty = ['tanggal', 'tujuan', 'tempo','tanggal_tempo','catatan_tempo', 'hal',
-                                'ppn','interior', 'instalasi', 'ongkos_kirim', 'status']
+      let requiredProperty = ['tanggal', 'tujuan', 'tempo', 'hal',
+                                'ppn','interior', 'instalasi', 'ongkos_kirim', 'status', 'no_hp']
       let checkedProperty = checkProperty(req.body,requiredProperty)      
       let data = {...checkedProperty}
+      data['tanggal_tempo'] = req.body.tanggal_tempo
+      data['catatan_tempo'] = req.body.catatan_tempo
 
       if(form.catatan) data['catatan'] = form.catatan
 
       if(!statusAllowed.includes(data.status)) throw {code: 403, message: 'WRONG_STATUS'}
 
-      requiredProperty = ['atas_nama','no_rekening','nama_bank', ]
+      requiredProperty = ['atas_nama','no_rekening','nama_bank']
 
-      data.rekening = checkProperty(form, requiredProperty)
+      data.rekening = checkProperty(form.rekening, requiredProperty)
 
       data['interior'] = checkInterior(form.interior)
       const cii = await CII.findOneAndUpdate({_id: req.params.id}, data, {new:true})
@@ -309,6 +345,31 @@ class CIIController {
     }
   }
 
+  async deletedIndex(req,res){
+    try {
+      const limit = req.query.limit || 5
+      const page  = req.query.page || 1
+      const CFs = await CII.paginate({isActive:false,},
+                                    { select: '_id tujuan tanggal no_seri status',
+                                      sort: 'no_seri',
+                                      limit: limit,
+                                      page : page })
+      if(!CFs) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
+      return res.status(200)
+              .json({
+                  status: true,
+                  message: "DOCUMENT_FOUND",
+                  total: CFs.totalDocs,
+                  ...CFs})
+    }catch(error){
+            console.log(error)
+            return res.status(error.code || 500)
+                    .json({
+                        status: false,
+                        message: error.message
+      })
+    }
+  }
   // async anu(req,res){
   //   try {
   //     let data = {

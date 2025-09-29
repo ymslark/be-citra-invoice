@@ -1,11 +1,11 @@
 const checkPermission = (allowedRoles) => {
   return async (req, res, next) => {
     try {
-      
+      console.log(req.jwt)
       // Pastikan req.user diisi sebelumnya oleh middleware otentikasi
       const userRole = req.jwt.role;
 
-      if (!userRole) throw{code:403, message:"ROLE_REQUIRED"}
+      if (!userRole) throw{code:401, message:"ROLE_REQUIRED"}
 
 
       // Contoh operasi asinkron (misalnya, validasi role dari database)
@@ -13,8 +13,9 @@ const checkPermission = (allowedRoles) => {
       if (allowedRoles.includes(userRole)) {
           return next(); // Lanjutkan ke handler berikutnya
       }
-      throw{code:402, message:"UNAUTHORIZED"}
+      throw{code:401, message:"UNAUTHORIZED_ROLE"}
     } catch (error) {
+      console.log(error)
                 return res.status(error.code || 500)
                 .json({
                     status:false, 
@@ -22,6 +23,10 @@ const checkPermission = (allowedRoles) => {
                 })
     }
   }
+  
 }
+
+
+
 
 export default checkPermission

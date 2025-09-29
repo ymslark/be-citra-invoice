@@ -1,7 +1,7 @@
 //ON_PROGRESS
 
 import mongoose from 'mongoose'
-
+import mongoosePaginate from "mongoose-paginate-v2"
 const Schema = new mongoose.Schema({
     tujuan:{
         type: String
@@ -12,14 +12,10 @@ const Schema = new mongoose.Schema({
     perusahaan:{
         type: String
     },
-    nama_supir:{
-        type: String
-    },
-    no_supir:{
-        type: String
-    },
-    no_kendaraan:{
-        type: String
+    id_supir:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Supir',
+        required:true
     },
     jenis:{
         type: String,
@@ -29,7 +25,11 @@ const Schema = new mongoose.Schema({
         type: String
     },
     barang:{
-        type: array
+        type: Array
+    },
+    status:{
+        type: String,
+        enum: ['WAITING', 'PROCCESS', 'DONE', 'CANCEL']
     },
     isActive:{
         type: Boolean,
@@ -48,5 +48,11 @@ const Schema = new mongoose.Schema({
     }
   }
 )
-export default mongoose.model('Memo', Schema)
 
+Schema.plugin(mongoosePaginate)
+Schema.virtual('supirs', 
+{   ref: 'Supir',
+    localField: '_id',
+    foreignField: 'id_supir'
+})
+export default mongoose.model('Memo', Schema)

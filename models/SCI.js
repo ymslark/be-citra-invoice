@@ -4,6 +4,10 @@ import mongoose from 'mongoose'
 import mongoosePaginate from "mongoose-paginate-v2"
 
 const Schema = new mongoose.Schema({
+    no_hp : {
+        type: String,
+        required: true
+    },
     no_seri : {
         type: String,
     },

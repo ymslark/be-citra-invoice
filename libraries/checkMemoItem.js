@@ -1,6 +1,6 @@
 const checkMemoItem = (barang) => {
   // if(model == "Supir"){
-  let property = ['nama_barang', 'qty', 'keterangan', 'ukuran']
+  let property = ['nama_barang', 'qty', 'keterangan']
   let data = []
   barang.forEach(i=>{
     let raw = {}
@@ -12,16 +12,6 @@ const checkMemoItem = (barang) => {
       
       raw[v] = i[v]
     });
-    
-    raw['total_harga'] = raw['qty'] * raw['harga']
-    
-    raw['total_diskon'] = 0
-    
-    if(raw['diskon_persen'] > 0) raw['total_diskon'] += (raw.total_harga / 100) * raw.diskon_persen
-    
-    if(raw['diskon_nominal'] > 0) raw['total_diskon'] += raw.diskon_nominal
-    
-    raw['harga_akhir'] = raw.total_harga - raw.total_diskon
     data.push(raw)
   })
   

@@ -1,5 +1,6 @@
 import mongoose from "mongoose"
 import Supir from '../models/Supir.js'
+import Memo from '../models/Memo.js'
 import Config from "../models/Config.js";
 import storeLog from '../libraries/storeLog.js'
 // import methodAuthorized  from "../libraries/methodAllowedRole.js";
@@ -9,21 +10,20 @@ class SupirController {
 
   async index(req,res){
       try {
-          // const limit = req.query.limit || 5
-          // const page  = req.query.page || 1
-          // const Supirs = await Supir.paginate({userId: req.jwt.id},
+          const limit = req.query.limit || 10
+          const page  = req.query.page || 1
+          // const supirs = await Supir.paginate({userId: req.jwt.id},
           //                                   {
           //                                     limit: limit,
           //                                     page : page
           //                                   })
-          const Supirs = await Supir.find({})
-          if(!Supirs) {throw {code: 404, message: '_NOT_FOUND'}}
+          const supirs = await Supir.find({isActive: true}).select('nama_supir no_hp no_kendaraan _id')
+          if(!supirs) {throw {code: 404, message: 'DRIVER_NOT_FOUND'}}
           return res.status(200)
                   .json({
                       status: true,
-                      message: "_FOUND",
-                      total: Supirs.totalDocs,
-                      Supirs
+                      message: "DRIVER_FOUND",
+                      supir : supirs
     })
   }catch(error){
           console.log(error)
@@ -99,33 +99,31 @@ class SupirController {
 }
 
   async show(req,res){
-      try {
-          if(!req.params.id) throw {code: 400, message: 'REQUIRED_ID'}
-          if(!mongoose.Types.ObjectId.isValid(req.params.id)) {throw {code: 404, message: 'INVALID_ID'
-      }
-    }
+   try {
+    if(!req.params.id)throw {code: 400, message: 'REQUIRED_ID'}
 
-          const Supir = await Supir.findOne({_id: req.params.id, userId: req.jwt.id
-    })
-          if(!Supir) {throw {code: 404, message: '_NOT_FOUND'
-      }
-    }
+    if(!mongoose.Types.ObjectId.isValid(req.params.id)) throw {code: 400, message: 'INVALID_ID'}
+    const response = await Supir.findOne({_id: req.params.id})
+    if(!response) throw {code: 404, message: 'DRIVER_NOT_FOUND'}
+    console.log(response)
 
-          return res.status(200)
-                  .json({
-                      status: true,
-                      message: `_FOUND`,
-                      Supir
+    let memos = await Memo.find({id_supir: req.params.id})
+    if(!memos) memos = [] 
+    return res.status(200)
+            .json({
+                status: true,
+                message: 'DRIVER_FOUND',
+                supir: response, 
+                memo: memos
+                })
+   } catch (error) {
+    return res.status(error.code || 500)
+            .json({
+                status: false,
+                message: error.message
     })
-  }catch(error){
-          return res.status(error.code || 500)
-                  .json({
-                      status: false,
-                      message: error.message
-    })
+   }
   }
-}
-
   async update(req,res){
 
   try {
