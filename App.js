@@ -20,8 +20,8 @@ console.log(process.cwd());
 const env = dotenv.config().parsed
 const app = express()
 
-// app.use(cors({ origin: ['http://localhost:8000', 'http://192.168.1.19:8000'], Credentials: true }, ))
-app.use(cors({ origin: '*' }, ))
+app.use(cors({ origin: ['http://localhost:8000', 'http://192.168.1.19:8000', 'https://demo.ortayamaesa.my.id'], Credentials: true }, ))
+// app.use(cors({ origin: '*' }, ))
 app.use(expressMonitor())
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))

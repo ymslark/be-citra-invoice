@@ -118,6 +118,7 @@ router.put('/SCI/update/:id', jwtAuth(), checkPermission(roles), SCIController.u
 router.patch('/SCI/restore/:id', jwtAuth(), checkPermission(roles), SCIController.restore)
 router.delete('/SCI/:id', jwtAuth(), checkPermission(roles), SCIController.destroy)
 
+router.get('/CII/filterData', jwtAuth(), checkPermission(roles), CIIController.filterData)
 router.get('/CII/search', jwtAuth(), checkPermission(roles), CIIController.search)
 router.get('/CII/last30Days', jwtAuth(), checkPermission(roles), CIIController.documentLast30Days)
 router.get('/CII', jwtAuth(), checkPermission(roles), CIIController.index)

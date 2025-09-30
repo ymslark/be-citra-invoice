@@ -8,6 +8,7 @@ import getSerialNumber from '../libraries/getSerialNumber.js'
 import getConfig from '../libraries/getConfig.js'
 import checkProperty from "../libraries/checkProperty.js";
 import checkInterior from "../libraries/checkInterior.js"
+import {buildFilterQuery} from "../libraries/db/buildFilterQuery.js"
 
 const statusAllowed = ['WAITING', 'PROCCESS', 'DONE', 'CANCEL']
 
@@ -349,18 +350,18 @@ class CIIController {
     try {
       const limit = req.query.limit || 5
       const page  = req.query.page || 1
-      const CFs = await CII.paginate({isActive:false,},
+      const CIIs = await CII.paginate({isActive:false,},
                                     { select: '_id tujuan tanggal no_seri status',
                                       sort: 'no_seri',
                                       limit: limit,
                                       page : page })
-      if(!CFs) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
+      if(!CIIs) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
       return res.status(200)
               .json({
                   status: true,
                   message: "DOCUMENT_FOUND",
-                  total: CFs.totalDocs,
-                  ...CFs})
+                  total: CIIs.totalDocs,
+                  ...CIIs})
     }catch(error){
             console.log(error)
             return res.status(error.code || 500)
@@ -370,42 +371,40 @@ class CIIController {
       })
     }
   }
-  // async anu(req,res){
-  //   try {
-  //     let data = {
-  //       rekening: {
-  //         cii: [
-  //           {no_rekening:"7035622888", nama_bank: "BCA", atas_nama: "William Prayogo"},
-  //           {no_rekening:"5222227071", nama_bank: "BCA", atas_nama: "PT. Sentral Citra Indonesia"},
-  //           {no_rekening:"7035105557", nama_bank: "BCA", atas_nama: "CV. Mulia Utama Indonesia"},
-  //         ],
-  //         cii: [
-  //           {no_rekening:"7035622888", nama_bank: "BCA", atas_nama: "William Prayogo"},
-  //           {no_rekening:"5222227071", nama_bank: "BCA", atas_nama: "PT. Sentral Citra Indonesia"},
-  //         ],
-  //         sci: [
-  //           {no_rekening:"5222227071", nama_bank: "BCA", atas_nama: "PT. Sentral Citra Indonesia"},
-  //           {no_rekening:"7035105557", nama_bank: "BCA", atas_nama: "CV. Mulia Utama Indonesia"},
-  //         ],
-  //       }
-  //     }
-  //     console.log(data)
-  //     const config = await Config.findOneAndUpdate({_id:'6769a0d6db3698d969b1c0c0'},data)
-  //     if(!config) throw {code:400, message:'Gagal mengubah config'}
-  //     return res.status(200)
-  //           .json({
-  //               status: true,
-  //               message: `Berhasil`,
-  //     })
-  //   } catch (error) {
-  //     console.log(error)
-  //       return res.status(error.code || 500)
-  //                           .json({
-  //                               status: false,
-  //                               message: error.message      
-  //           })
-  //  }
-  // }
+  async filterData(req, res) {
+    try {
+      const { search, startDate, endDate, page = 1, limit = 10, index = false } = req.query;
+      // console.log(req.query)
+      let defaultLast30Days = false;
+      let order = 1
+      if(index == 'true' || index === 'yes'){
+        defaultLast30Days = true
+        order = -1
+      }
+      const isActive = true
+      const query = buildFilterQuery(
+        { search, startDate, endDate },
+        { searchFields: ['tujuan', 'no_seri'], defaultLast30Days, isActive }
+      );
+  
+      const data = await CII.paginate(query, {
+        select : '-__v -isActive -createdAt -updatedAt',
+        page,
+        limit,
+        sort: { no_seri: order },
+      });
+      if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_CII'}
+      res.status(200).json({ 
+                          status: true,
+                          message: 'SUCCESS_FETCH_DATA_CII', 
+                          ...data })
+    } catch (error) {
+      console.log(error)
+      res.status(error.code || 500).json({ 
+        status: false,
+        message: error.message })
+    }
+  }
 }
 
 export default new CIIController()

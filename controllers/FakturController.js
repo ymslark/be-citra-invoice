@@ -6,6 +6,7 @@ import checkProperty from '../libraries/checkProperty.js'
 import getConfig from '../libraries/getConfig.js'
 // import Faktur from '../models/Faktur.js'
 import SCI from '../models/SCI.js'
+import CF from '../models/CF.js'
 import CII from '../models/CII.js'
 import sharp from 'sharp'
 import fs from 'fs'
@@ -23,7 +24,7 @@ const imageURLPath = (filename) => {
   return `${env.IMAGE_URL_PATH}${filename}`
 }
 
-let perusahaan = ['Faktur', 'SCI', 'CII']
+let perusahaan = ['CF', 'SCI', 'CII']
 
 class FakturController {
   async store(req, res) {
@@ -342,12 +343,13 @@ class FakturController {
 
       if (!no_seri || no_seri == '') throw { code: 400, message: 'REQUIRED_NO_SERI' }
       const companyCode = no_seri.split('/')[0]
+      console.log(no_seri,companyCode)
       if (!perusahaan.includes(companyCode)) throw { code: 400, message: 'INVALID_NO_SERI' }
       let Model = null;
 
       switch (companyCode) {
-        case 'Faktur':
-          Model = Faktur;
+        case 'CF':
+          Model = CF;
           break;
         case 'SCI':
           Model = SCI;
