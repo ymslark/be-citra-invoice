@@ -20,7 +20,7 @@ console.log(process.cwd());
 const env = dotenv.config().parsed
 const app = express()
 
-app.use(cors({ origin: ['http://localhost:8000', 'http://192.168.1.19:8000', 'https://demo.ortayamaesa.my.id'], Credentials: true }, ))
+app.use(cors({ origin: ['http://localhost:3000','http://localhost:8000', 'http://192.168.1.19:8000', 'https://demo.ortayamaesa.my.id'], Credentials: true }, ))
 // app.use(cors({ origin: '*' }, ))
 app.use(expressMonitor())
 app.use(express.json())
@@ -28,7 +28,6 @@ app.use(express.urlencoded({extended: true}))
 app.use('/public/images', express.static(path.join(process.cwd(), 'uploads/compressed')))
 // app.use('/public', express.static(path.join(process.cwd(), 'uploads')))
 console.log('Serving static from:', path.join(process.cwd(), 'uploads'))
-
 
 app.use('/', apiRouter)
 
@@ -55,10 +54,12 @@ app.use((err, req, res, next) => {
 
 
 
-
 //panggil fungsi mongodb connection
 connection()
 
 app.listen(env.APP_PORT, () => {
     console.log(`Server started on port ${env.APP_PORT}`);
 });
+// if(error){
+//     console.error('Failed to connect to MongoDB', error);
+// }

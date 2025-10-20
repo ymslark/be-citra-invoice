@@ -140,7 +140,7 @@ class FakturController {
       let faktur = await Faktur.findById(req.params.id)
       if (!faktur) return res.status(404).json({ status: false, message: 'DOCUMENT_NOT_FOUND' })
       console.log(faktur)
-      faktur.pembeli.gambar_npwp = `http://localhost:${env.APP_PORT}/${faktur.pembeli.gambar_npwp.replace('uploads/compressed/', 'public/images/')}`
+      faktur.pembeli.gambar_npwp = `${env.BASE_URL}/${faktur.pembeli.gambar_npwp.replace('uploads/compressed/', 'public/images/')}`
       console.log(faktur.pembeli.gambar_npwp)
 
       return res.status(200).json({ status: true, faktur })
