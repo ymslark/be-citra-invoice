@@ -8,6 +8,9 @@ const Schema = new mongoose.Schema({
         type: String,
         required: true
     },
+    alamat : {
+        type: String,
+    },
     no_seri : {
         type: String,
     },

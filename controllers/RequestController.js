@@ -31,7 +31,7 @@ class RequestController {
           throw { code: 404, message: '404_NOT_FOUND' }
           break;
       }
-      const limit = req.query.limit || 5
+      const limit = req.query.limit || 50
       const page = req.query.page || 1
       const result = await Model.paginate({ isActive: true },
         {
@@ -217,7 +217,6 @@ class RequestController {
       const log = {
         koleksi: `req${perusahaan.toLowerCase()}s`,
         note: "Menambahkan Data",
-        userId: req.jwt.id,
         data_objectId: model._id,
         data: model
       }

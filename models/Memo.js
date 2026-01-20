@@ -9,6 +9,9 @@ const Schema = new mongoose.Schema({
     alamat:{
         type: String
     },
+    no_hp:{
+        type: String
+    },
     perusahaan:{
         type: String
     },

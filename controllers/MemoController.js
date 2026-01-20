@@ -3,6 +3,7 @@ import Memo from '../models/Memo.js'
 import Supir from '../models/Supir.js'
 import storeLog from "../libraries/storeLog.js"
 import checkProperty from "../libraries/checkProperty.js";
+import {buildFilterQuery} from "../libraries/db/buildFilterQuery.js";
 import checkMemoItem from "../libraries/checkMemoItem.js";
 
 const statusAllowed = ['WAITING', 'PROCCESS', 'DONE', 'CANCEL']
@@ -155,7 +156,7 @@ class MemoController {
   
   async store(req,res){
     try {
-      let requiredProperty = ['tanggal', 'barang', 'alamat',  'tujuan', 'perusahaan','id_supir', 'jenis_memo']
+      let requiredProperty = ['tanggal', 'barang', 'alamat','no_hp',  'tujuan', 'perusahaan','id_supir', 'jenis_memo']
       let checkedProperty = checkProperty(req.body,requiredProperty)
       if(!mongoose.Types.ObjectId.isValid(checkedProperty.id_supir)) throw {code: 404, message: 'INVALID_ID'}      
       let data = {...checkedProperty}
@@ -229,7 +230,7 @@ class MemoController {
   async update(req,res){
     try {
       if(!req.params.id) throw {code: 400, message: 'REQUIRED_ID'}
-      let requiredProperty  = ['tanggal', 'barang', 'alamat',  'tujuan', 'perusahaan','id_supir', 'status', 'jenis_memo']
+      let requiredProperty  = ['tanggal', 'barang', 'alamat', 'no_hp',  'tujuan', 'perusahaan','id_supir', 'status', 'jenis_memo']
       if(!statusAllowed.includes(req.body.status)) throw {code: 403, message: 'STATUS_NOT_ALLOWED'}
       let checkedProperty   = checkProperty(req.body,requiredProperty)
 
@@ -331,6 +332,40 @@ class MemoController {
       })
     }
   }
+ async filterData(req, res) {
+    try {
+      const { search, startDate, endDate, page = 1, limit = 10, index = false } = req.query;
+      console.log(req.query)
+      let defaultLast30Days = false;
+      let order = 1
+      if(index == 'true' || index === 'yes'){
+        defaultLast30Days = true
+        order = -1
+      }
+      const isActive = true
+      const query = buildFilterQuery(
+        { search, startDate, endDate },
+        { searchFields: ['tujuan'], defaultLast30Days, isActive }
+      );
+  
+      const data = await Memo.paginate(query, {
+        select : '-__v -isActive -createdAt -updatedAt',
+        page,
+        limit,
+        // sort: { tanggal: order },
+      });
+      if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_MEMO'}
+      res.status(200).json({ 
+                          status: true,
+                          message: 'SUCCESS_FETCH_DATA_MEMO', 
+                          ...data })
+    } catch (error) {
+      console.log(error)
+      res.status(error.code || 500).json({ 
+        status: false,
+        message: error.message })
+    }
+  }  
 }
 
 export default new MemoController()

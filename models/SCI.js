@@ -11,6 +11,9 @@ const Schema = new mongoose.Schema({
     no_seri : {
         type: String,
     },
+    alamat : {
+        type: String,
+    },
     tanggal : {
       type: String,
     },

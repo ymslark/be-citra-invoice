@@ -158,7 +158,7 @@ class CIIController {
   async store(req,res){
     try {
       var form = req.body
-      let requiredProperty = ['tanggal', 'tujuan', 'tempo', 'hal',
+      let requiredProperty = ['tanggal', 'tujuan', 'tempo', 'hal', 'alamat',
                                 'ppn','interior', 'instalasi', 'ongkos_kirim', 'no_hp']
       let checkedProperty = checkProperty(req.body,requiredProperty)      
       
@@ -241,7 +241,7 @@ class CIIController {
       const doc = await CII.findOne({_id: req.params.id})
       if(!doc) throw {code: 400, message:'INVALID_ID'}
       var form = req.body
-      let requiredProperty = ['tanggal', 'tujuan', 'tempo', 'hal',
+      let requiredProperty = ['tanggal', 'tujuan', 'tempo', 'hal', 'alamat',
                                 'ppn','interior', 'instalasi', 'ongkos_kirim', 'status', 'no_hp']
       let checkedProperty = checkProperty(req.body,requiredProperty)      
       let data = {...checkedProperty}
