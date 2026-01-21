@@ -5,7 +5,9 @@ const env = dotenv.config().parsed
 
 const connection = () => {
     mongoose.connect(env.MONGODB_URI, {
-        dbName: env.MONGODB_NAME
+        dbName: env.MONGODB_NAME,
+        user: env.MONGODB_USERNAME,
+        pass: env.MONGODB_PASSWORD
     })
     
 const conn = mongoose.connection
