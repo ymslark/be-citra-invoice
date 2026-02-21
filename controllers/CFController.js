@@ -50,7 +50,7 @@ class CFController {
       const page  = req.query.page || 1
       const CFs = await CF.paginate({ tanggal: { $gte: thirtyDaysAgo, $lte: today }, isActive:true},
                                     { select: '_id tujuan tanggal no_seri status',
-                                      sort: {no_seri: -1},
+                                      sort: {tanggal: -1},
                                       limit: limit,
                                       page : page })
       if(!CFs) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
@@ -77,7 +77,7 @@ class CFController {
       const page  = req.query.page || 1
       const CFs = await CF.paginate({isActive:false,},
                                     { select: '_id tujuan tanggal no_seri status',
-                                      sort: 'no_seri',
+                                      sort: {tanggal: -1},
                                       limit: limit,
                                       page : page })
       if(!CFs) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
@@ -426,7 +426,7 @@ class CFController {
         select : '-__v -isActive -createdAt -updatedAt',
         page,
         limit,
-        sort: { no_seri: order },
+        sort: { tanggal: order },
       });
       if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_CF'}
       res.status(200).json({ 

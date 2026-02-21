@@ -156,9 +156,8 @@ class FakturController {
       if(mongoose.Types.ObjectId.isValid(req.params.id) == false) throw ({ code:401, message: 'INVALID_ID' })
       const faktur = await Faktur.findById(req.params.id)
       if (!faktur) throw { status: false, message: 'FAKTUR_NOT_FOUND' }
-
       const form = JSON.parse(req.body.faktur)
-      let property = ['tanggal', 'tanggal_pembelian', 'barang']
+      let property = ['tanggal', 'tanggal_pembelian', 'barang', 'status']
       // Validasi properti yang ada di model Faktur
       let data = checkProperty(form, property)
       data['tanggal'] = getDate
@@ -430,6 +429,31 @@ class FakturController {
           message: error.message })
       }
     }
+
+      async updateStatus(req,res){
+    try{
+      if(!req.params.id) throw {code: 400, message: 'REQUIRED_ID'}
+      if(!req.query.status) throw {code: 400, message: 'REQUIRED_STATUS'}
+      let statusAllowed = ['PENDING', 'APPROVED', 'REJECTED']
+      if(!statusAllowed.includes(req.query.status)) throw {code: 400, message: 'INVALID_STATUS'}
+      const model = await Faktur.findOneAndUpdate({isActive: true, _id: req.params.id}, {$set: {status: req.query.status}}, {new: true})
+      if(!model) throw {code: 500, message: 'UPDATE_STATUS_FAILED'}
+      return res.status(200)
+        .json({
+          status: true,
+          message: 'UPDATE_STATUS_SUCCESS',
+          model
+        })
+    }
+    catch(error){
+      console.log(error)
+      return res.status(error.code || 500)
+        .json({
+          status: false,
+          message: error.message,
+        })
+    }
+  }
 }
 
 export default new FakturController()

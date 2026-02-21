@@ -7,6 +7,7 @@ import checkProperty from "../libraries/checkProperty.js";
 import checkItem from "../libraries/checkItem.js"
 import checkRequest from "../libraries/checkRequest.js"
 import getDate from "../libraries/getData/getDate.js"
+import {buildFilterQuery} from "../libraries/db/buildFilterQuery.js"
 const statusAllowed = ['WAITING', 'PROCCESS', 'DONE', 'CANCEL']
 
 class RequestController {
@@ -36,7 +37,7 @@ class RequestController {
       const result = await Model.paginate({ isActive: true },
         {
           select: 'tujuan tanggal status',
-          sort: '_id: -1',
+          sort: { tanggal: desc },
           limit: limit,
           page: page
         })
@@ -45,8 +46,7 @@ class RequestController {
         .json({
           status: true,
           message: "DOCUMENT_FOUND",
-          docs: result
-          
+          ...result          
         })
     } catch (error) {
       console.log(error)
@@ -202,6 +202,7 @@ class RequestController {
 
         data['interior'] = checkRequest(data['interior'], perusahaan)
       }
+      console.log(getDate)
       let data2 = {
         tanggal: getDate,
         status: 'WAITING',
@@ -463,6 +464,60 @@ class RequestController {
           status: false,
           message: error.message,
         })
+    }
+  }
+  
+  async filterData(req, res) {
+    try {
+      if (!req.params.perusahaan) throw { code: 400, message: 'REQUIRED_PERUSAHAAN' }
+      let perusahaan = req.params.perusahaan
+      let Model = null
+      let data = null
+      let requiredProperty = null
+      switch (perusahaan) {
+        case 'CII':
+          Model = ReqCII
+          break;
+        case 'CF':
+          Model = ReqCF
+          break;
+        case 'SCI':
+          Model = ReqSCI
+          break;
+        default:
+          throw { code: 404, message: '404_NOT_FOUND' }
+          break;
+      }
+      const { search, startDate, endDate, page = 1, limit = 10, index = false } = req.query;
+      // console.log(req.query)
+      let defaultLast30Days = false;
+      let order = 1
+      if(index == 'true' || index === 'yes'){
+        defaultLast30Days = true
+        order = -1
+      }
+      const isActive = true
+      const query = buildFilterQuery(
+        { search, startDate, endDate },
+        { searchFields: ['tujuan', 'no_seri'], defaultLast30Days, isActive }
+      );
+  
+      data = await Model.paginate(query, {
+        select : '-__v -isActive -createdAt -updatedAt',
+        page,
+        limit,
+        sort: { tanggal: 'desc' },
+      });
+      if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_REQUEST_CF'}
+      res.status(200).json({ 
+                          status: true,
+                          message: 'SUCCESS_FETCH_DATA_REQUEST_CF', 
+                          ...data })
+    } catch (error) {
+      console.log(error)
+      res.status(error.code || 500).json({ 
+        status: false,
+        message: error.message })
     }
   }
 }

@@ -162,7 +162,7 @@ router.delete('/Memo/:id', jwtAuth(), checkPermission(['super_admin', 'developer
 
 
 router.get('/Request/search/:perusahaan', jwtAuth(), checkPermission(roles), RequestController.search)
-router.get('/Request/:perusahaan', jwtAuth(), checkPermission(roles), RequestController.index)
+router.get('/Request/:perusahaan', jwtAuth(), checkPermission(roles), RequestController.filterData)
 router.get('/Request/detail/:perusahaan/:id', jwtAuth(), checkPermission(roles), RequestController.show)
 // router.get('/Request/getDocumentsThisMonth', jwtAuth(), checkPermission(roles), RequestController.getDocumentsThisMonth)
 // router.get('/Request/getDocumentsByPeriod', jwtAuth(), checkPermission(roles), RequestController.getDocumentsByPeriod)
@@ -179,6 +179,7 @@ router.get('/Faktur', FakturController.index)
 router.get('/Faktur/filterData', jwtAuth(), checkPermission(roles), FakturController.filterData)
 router.delete('/Faktur/:id', jwtAuth(), checkPermission(['super_admin', 'admin', 'developer']), FakturController.destroy)
 router.put('/Faktur/restore/:id', jwtAuth(), checkPermission(['super_admin', 'admin', 'developer']), FakturController.restore)
+router.patch('/Faktur/status/:id', jwtAuth(), checkPermission(roles), FakturController.updateStatus)
 // router.get('/Faktur/search', jwtAuth(), checkPermission(roles), FakturController.search)
 // router.get('/Faktur/:perusahaan', jwtAuth(), checkPermission(roles), FakturController.index)
 router.get('/Faktur/detail/:id', jwtAuth(), checkPermission(roles), FakturController.show)

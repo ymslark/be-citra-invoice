@@ -49,7 +49,7 @@ class CIIController {
       const page  = req.query.page || 1
       const CIIs = await CII.paginate({ tanggal: { $gte: thirtyDaysAgo, $lte: today }, isActive:true},
                                     { select: '_id tujuan tanggal no_seri status',
-                                      sort: {no_seri: -1},
+                                      sort: {tanggal: -1},
                                       limit: limit,
                                       page : page })
       if(!CIIs) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
@@ -391,7 +391,7 @@ class CIIController {
         select : '-__v -isActive -createdAt -updatedAt',
         page,
         limit,
-        sort: { no_seri: order },
+        sort: { tanggal: order },
       });
       if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_CII'}
       res.status(200).json({ 
