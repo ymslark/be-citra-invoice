@@ -508,10 +508,10 @@ class RequestController {
         limit,
         sort: { tanggal: 'desc' },
       });
-      if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_REQUEST_CF'}
+      if (!data) throw {code: 402, message:`FAILED_FETCH_DATA_REQUEST_${perusahaan}`}
       res.status(200).json({ 
                           status: true,
-                          message: 'SUCCESS_FETCH_DATA_REQUEST_CF', 
+                          message: `SUCCESS_FETCH_DATA_REQUEST_${perusahaan}`, 
                           ...data })
     } catch (error) {
       console.log(error)
