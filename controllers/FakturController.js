@@ -160,7 +160,7 @@ class FakturController {
       let property = ['tanggal', 'tanggal_pembelian', 'barang', 'status']
       // Validasi properti yang ada di model Faktur
       let data = checkProperty(form, property)
-      data['tanggal'] = getDate
+      data['tanggal'] = form.tanggal
       property = ['nama_pembeli', 'alamat', 'npwp', 'no_hp']
       data['pembeli'] = checkProperty(form.pembeli, property)
 
