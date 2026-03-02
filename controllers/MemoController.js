@@ -9,37 +9,46 @@ import checkMemoItem from "../libraries/checkMemoItem.js";
 const statusAllowed = ['WAITING', 'PROCCESS', 'DONE', 'CANCEL']
 
 class MemoController {
-  async index(req,res){
+ async index(req, res) {
     try {
-      const limit = req.query.limit || 5
-      const page  = req.query.page || 1
-      let Memos = await Memo.paginate({ isActive : true},
-                                    {
-                                      sort: '_id: -1',
-                                      limit: limit,
-                                      page : page,
-                                      populate: {path: 'id_supir', select: 'nama_supir no_hp no_kendaraan'}})
-      Memos.docs = Memos.docs.map((memo) => ({
+      const { search, page = 1, limit = 10, index = false } = req.query;
+      console.log(req.query)
+      let defaultLast30Days = false;
+      let order = 1
+      if(index == 'true' || index === 'yes'){
+        defaultLast30Days = true
+        order = -1
+      }
+      const isActive = true
+      const query = buildFilterQuery(
+        { search },
+        { searchFields: ['tujuan'], defaultLast30Days, isActive }
+      );
+  
+      let data = await Memo.paginate(query, {
+        select : '-__v -isActive -createdAt -updatedAt',
+        page,
+        limit,
+        sort: { tanggal: order },
+        populate: {path: 'id_supir', select: 'nama_supir no_hp no_kendaraan'}
+      });
+      data.docs = data.docs.map((memo) => ({
               ...memo.toObject(), // Convert ke object biasa
               supir: memo.id_supir, // Rename id_supir ke supir
               id_supir: undefined // Hapus field id_supir lama
-            })) // Menghapus field id_supir                 
-      if(!Memos) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
-      return res.status(200)
-              .json({
-                  status: true,
-                  message: "DOCUMENT_FOUND",
-                  total: Memos.totalDocs,
-                  ...Memos})
-    }catch(error){
-            console.log(error)
-            return res.status(error.code || 500)
-                    .json({
-                        status: false,
-                        message: error.message
-      })
+            })) // Menghapus field id_supir 
+      if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_MEMO'}
+      res.status(200).json({ 
+                          status: true,
+                          message: 'SUCCESS_FETCH_DATA_MEMO', 
+                          ...data })
+    } catch (error) {
+      console.log(error)
+      res.status(error.code || 500).json({ 
+        status: false,
+        message: error.message })
     }
-  }
+  }  
   async deleted(req,res){
     try {
       const limit = req.query.limit || 5
@@ -348,12 +357,19 @@ class MemoController {
         { searchFields: ['tujuan'], defaultLast30Days, isActive }
       );
   
-      const data = await Memo.paginate(query, {
+      let data = await Memo.paginate(query, {
         select : '-__v -isActive -createdAt -updatedAt',
         page,
         limit,
-        // sort: { tanggal: order },
+        sort: { tanggal: 'asc' },
+        populate: {path: 'id_supir', select: 'nama_supir no_hp no_kendaraan'}
       });
+      data.docs = data.docs.map((memo) => ({
+              ...memo.toObject(), // Convert ke object biasa
+              supir: memo.id_supir, // Rename id_supir ke supir
+              id_supir: undefined // Hapus field id_supir lama
+            })) // Menghapus field id_supir 
+      console.log(data)         
       if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_MEMO'}
       res.status(200).json({ 
                           status: true,
