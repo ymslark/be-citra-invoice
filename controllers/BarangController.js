@@ -6,6 +6,7 @@ import storeLog from '../libraries/storeLog.js'
 // import { validateBarang } from '../libraries/Barang/validateBarang.js'
 import { checkBarang } from '../libraries/Barang/checkBarang.js'
 import { fileURLToPath } from 'url';
+import { buildFilterQuery } from '../libraries/db/buildFilterQuery.js'
 import fs from 'fs'
 import path from 'path'
 
@@ -291,6 +292,28 @@ class BarangController {
       })
     }
   }
+
+
+async filterData(req,res){
+  try {
+    const filter = buildFilterQuery(req.query, {searchFields: ['nama', 'kode']})
+    const Barangs = await Barang.find(filter).sort({_id: -1})
+    if(!Barangs) {throw {code: 404, message: 'BARANG_NOT_FOUND'}} 
+    return res.status(200)
+            .json({
+                status: true, 
+                message: "BARANG_FOUND",
+                total: Barangs.length,
+                Barangs})
+  }catch(error){
+    console.log(error)
+    return res.status(error.code || 500)
+            .json({
+                status: false,
+                message: error.message
+    })
+  }
+}
 }
 
 export default new BarangController()

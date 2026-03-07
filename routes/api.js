@@ -180,7 +180,7 @@ router.get('/Faktur/filterData', jwtAuth(), checkPermission(roles), FakturContro
 router.delete('/Faktur/:id', jwtAuth(), checkPermission(['super_admin', 'admin', 'developer']), FakturController.destroy)
 router.put('/Faktur/restore/:id', jwtAuth(), checkPermission(['super_admin', 'admin', 'developer']), FakturController.restore)
 router.patch('/Faktur/status/:id', jwtAuth(), checkPermission(roles), FakturController.updateStatus)
-// router.get('/Faktur/search', jwtAuth(), checkPermission(roles), FakturController.search)
+router.get('/Faktur/deleted', jwtAuth(), checkPermission(roles), FakturController.deleted)
 // router.get('/Faktur/:perusahaan', jwtAuth(), checkPermission(roles), FakturController.index)
 router.get('/Faktur/detail/:id', jwtAuth(), checkPermission(roles), FakturController.show)
 router.put('/Faktur/:id', jwtAuth(), checkPermission(roles),upload.single('gambar'), FakturController.update)

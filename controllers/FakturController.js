@@ -395,42 +395,76 @@ class FakturController {
   }
 
   
-    async filterData(req, res) {
-      try {
-        const { search, startDate, endDate, page = 1, limit = 10, index = false } = req.query;
-        // console.log(req.query)
-        let defaultLast30Days = false;
-        let order = 1
-        if(index == 'true' || index === 'yes'){
-          defaultLast30Days = true
-          order = -1
-        }
-        const isActive = true
-        const query = buildFilterQuery(
-          { search, startDate, endDate },
-          { searchFields: ['pembeli.nama_pembeli'], defaultLast30Days, isActive }
-        );
-    
-        const data = await Faktur.paginate(query, {
-          select : '-__v -isActive -createdAt -updatedAt',
-          page,
-          limit,
-          sort: { tanggal: order },
-        });
-        if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_Faktur'}
-        res.status(200).json({ 
-                            status: true,
-                            message: 'SUCCESS_FETCH_DATA_Faktur', 
-                            ...data })
-      } catch (error) {
-        console.log(error)
-        res.status(error.code || 500).json({ 
-          status: false,
-          message: error.message })
+  async filterData(req, res) {
+    try {
+      const { search, startDate, endDate, page = 1, limit = 10, index = false } = req.query;
+      // console.log(req.query)
+      let defaultLast30Days = false;
+      let order = 1
+      if(index == 'true' || index === 'yes'){
+        defaultLast30Days = true
+        order = -1
       }
+      const isActive = true
+      const query = buildFilterQuery(
+        { search, startDate, endDate },
+        { searchFields: ['pembeli.nama_pembeli'], defaultLast30Days, isActive }
+      );
+  
+      const data = await Faktur.paginate(query, {
+        select : '-__v -isActive -createdAt -updatedAt',
+        page,
+        limit,
+        sort: { tanggal: order },
+      });
+      if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_Faktur'}
+      res.status(200).json({ 
+                          status: true,
+                          message: 'SUCCESS_FETCH_DATA_Faktur', 
+                          ...data })
+    } catch (error) {
+      console.log(error)
+      res.status(error.code || 500).json({ 
+        status: false,
+        message: error.message })
     }
+  }
+  async deleted(req, res) {
+    try {
+      const { search, startDate, endDate, page = 1, limit = 10, index = false } = req.query;
+      // console.log(req.query)
+      let defaultLast30Days = false;
+      let order = 1
+      if(index == 'true' || index === 'yes'){
+        defaultLast30Days = true
+        order = -1
+      }
+      const isActive = false
+      const query = buildFilterQuery(
+        { search, startDate, endDate },
+        { searchFields: ['pembeli.nama_pembeli'], defaultLast30Days, isActive }
+      );
 
-      async updateStatus(req,res){
+      const data = await Faktur.paginate(query, {
+        select : '-__v -isActive -createdAt -updatedAt',
+        page,
+        limit,
+        sort: { tanggal: order },
+      });
+      if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_DELETED_FAKTUR' }
+      res.status(200).json({ 
+                          status: true,
+                          message: 'SUCCESS_FETCH_DATA_DELETED_FAKTUR' , 
+                          ...data })
+    } catch (error) {
+      console.log(error)
+      res.status(error.code || 500).json({ 
+        status: false,
+        message: error.message })
+    }
+  }
+
+  async updateStatus(req,res){
     try{
       if(!req.params.id) throw {code: 400, message: 'REQUIRED_ID'}
       if(!req.query.status) throw {code: 400, message: 'REQUIRED_STATUS'}

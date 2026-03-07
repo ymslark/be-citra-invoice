@@ -12,6 +12,7 @@ export function buildFilterQuery(params = {}, options = {}) {
     if (endDate) query.tanggal.$lte = endDate;
   } else if (defaultLast30Days) {
     const today = new Date();
+    today.setDate(today.getDate() + 1); // Tambahkan 1 hari untuk memastikan tanggal akhir termasuk hari ini
     const end = today.toISOString().split("T")[0]; // hari ini (YYYY-MM-DD)
     const past30 = new Date(today);
     past30.setDate(past30.getDate() - 30);
@@ -19,7 +20,8 @@ export function buildFilterQuery(params = {}, options = {}) {
 
     query.tanggal = { $gte: start, $lte: end };
   }
-  if (isActive) query['isActive'] = true  
+  if (isActive) query['isActive'] = true
+  else query['isActive'] = false  
   // 🔎 Search dinamis
   if (search && searchFields.length > 0) {
 
