@@ -1,0 +1,69 @@
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG002', 'Barang B', 15000, 30)
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG003', 'Barang C', 20000, 20)
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG004', 'Barang D', 25000, 10)
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG005', 'Barang E', 30000, 5)
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG006', 'Barang F', 35000, 15)
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG007', 'Barang G', 40000, 40)
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG008', 'Barang H', 45000, 25);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG009', 'Barang I', 50000, 30);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG010', 'Barang J', 55000, 35);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG011', 'Barang K', 60000, 10);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG012', 'Barang L', 65000, 20);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG013', 'Barang M', 70000, 50);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG014', 'Barang N', 75000, 45);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG015', 'Barang O', 80000, 60);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG016', 'Barang P', 85000, 25);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG017', 'Barang Q', 90000, 30);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG018', 'Barang R', 95000, 20);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG019', 'Barang S', 100000, 10);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG020', 'Barang T', 105000, 50);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG021', 'Barang U', 110000, 30);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG022', 'Barang V', 115000, 20);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG023', 'Barang W', 120000, 10);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG024', 'Barang X', 125000, 15);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG025', 'Barang Y', 130000, 40);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG026', 'Barang Z', 135000, 25);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG027', 'Barang AA', 140000, 30);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG028', 'Barang BB', 145000, 35);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG029', 'Barang CC', 150000, 50);
+INSERT INTO barang (kode_brg, nama_brg, harga, stok) VALUES ('BRG030', 'Barang DD', 155000, 60);
+;
+
+
+
+INSERT INTO surat (no_seri, tujuan, status) VALUES ('SR001', 'Jakarta', 'PROCESS');
+INSERT INTO surat (no_seri, tujuan, status) VALUES ('SR002', 'Surabaya', 'DONE');
+INSERT INTO surat (no_seri, tujuan, status) VALUES ('SR003', 'Bandung', 'PROCESS');
+INSERT INTO surat (no_seri, tujuan, status) VALUES ('SR004', 'Yogyakarta', 'CANCEL');
+INSERT INTO surat (no_seri, tujuan, status) VALUES ('SR005', 'Medan', 'DONE');
+
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (1, 1, 10, 10000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (1, 2, 5, 15000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (2, 3, 8, 20000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (2, 4, 3, 25000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (3, 5, 7, 30000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (3, 6, 2, 35000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (4, 7, 6, 40000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (4, 8, 9, 45000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (5, 9, 4, 50000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (5, 10, 3, 55000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (1, 11, 12, 60000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (2, 12, 15, 65000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (3, 13, 20, 70000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (4, 14, 25, 75000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (5, 15, 30, 80000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (1, 16, 35, 85000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (2, 17, 40, 90000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (3, 18, 45, 95000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (4, 19, 50, 100000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (5, 20, 10, 105000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (1, 21, 15, 110000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (2, 22, 20, 115000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (3, 23, 25, 120000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (4, 24, 30, 125000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (5, 25, 35, 130000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (1, 26, 40, 135000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (2, 27, 45, 140000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (3, 28, 50, 145000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (4, 29, 55, 150000);
+INSERT INTO transaksi_brg (id_surat, id_brg, qty, harga) VALUES (5, 30, 60, 155000);
