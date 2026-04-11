@@ -120,6 +120,7 @@ router.delete('/SCI/:id', jwtAuth(), checkPermission(roles), SCIController.destr
 
 router.get('/CII/filterData', jwtAuth(), checkPermission(roles), CIIController.filterData)
 router.get('/CII/search', jwtAuth(), checkPermission(roles), CIIController.search)
+router.get('/CII/deleted', jwtAuth(), checkPermission(roles), CIIController.deletedIndex)
 router.get('/CII/last30Days', jwtAuth(), checkPermission(roles), CIIController.documentLast30Days)
 router.get('/CII', jwtAuth(), checkPermission(roles), CIIController.index)
 router.get('/CII/detail/:id', jwtAuth(), checkPermission(roles), CIIController.show)
