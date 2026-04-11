@@ -78,7 +78,7 @@ class CFController {
       const CFs = await CF.paginate({isActive:false,},
                                     { select: '_id tujuan tanggal no_seri status',
                                       sort: {tanggal: -1},
-                                      // limit: limit,
+                                      limit: 100,
                                       page : page })
       if(!CFs) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
       return res.status(200)

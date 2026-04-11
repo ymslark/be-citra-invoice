@@ -353,7 +353,7 @@ class CIIController {
       const CIIs = await CII.paginate({isActive:false,},
                                     { select: '_id tujuan tanggal no_seri status',
                                       sort: {'no_seri': -1},
-                                      // limit: limit,
+                                      limit: 100,
                                       page : page })
       if(!CIIs) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
       return res.status(200)

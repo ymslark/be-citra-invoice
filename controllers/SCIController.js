@@ -78,7 +78,7 @@ class SCIController {
       const SCIs = await SCI.paginate({isActive:false,},
                                     { select: '_id tujuan tanggal no_seri status',
                                       sort: {'no_seri': -1},
-                                      // limit: limit,
+                                      limit: 200,
                                       page : page })
       if(!SCIs) {throw {code: 404, message: 'DOCUMENT_NOT_FOUND'}}
       return res.status(200)
