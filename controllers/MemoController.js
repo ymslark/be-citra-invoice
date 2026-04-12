@@ -382,6 +382,49 @@ class MemoController {
         message: error.message })
     }
   }  
+ async deletedFilterData(req, res) {
+    try {
+      const { search, startDate, endDate, page = 1, limit = 10, index = false } = req.query;
+      console.log(req.query)
+      let defaultLast30Days = false;
+      let order = 1
+      if(index == 'true' || index === 'yes'){
+        defaultLast30Days = true
+        order = -1
+      }
+      const isActive = false
+      const query = buildFilterQuery(
+        { search, startDate, endDate },
+        { searchFields: ['tujuan'], defaultLast30Days, isActive }
+      );
+  
+      let data = await Memo.paginate(query, {
+        select : '-__v -isActive -createdAt -updatedAt',
+        page,
+        limit,
+        sort: { tanggal: 'asc' },
+        populate: {path: 'id_supir', select: 'nama_supir no_hp no_kendaraan'}
+      });
+      data.docs = data.docs.map((memo) => ({
+              ...memo.toObject(), // Convert ke object biasa
+              supir: memo.id_supir, // Rename id_supir ke supir
+              id_supir: undefined // Hapus field id_supir lama
+            })) // Menghapus field id_supir 
+      console.log(data)         
+      if (!data) throw {code: 402, message:'FAILED_FETCH_DATA_MEMO'}
+      res.status(200).json({ 
+                          status: true,
+                          message: 'SUCCESS_FETCH_DATA_MEMO', 
+                          ...data })
+    } catch (error) {
+      console.log(error)
+      res.status(error.code || 500).json({ 
+        status: false,
+        message: error.message })
+    }
+  }  
+
+ 
 }
 
 export default new MemoController()

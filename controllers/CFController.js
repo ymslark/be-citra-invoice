@@ -440,6 +440,40 @@ class CFController {
         message: error.message })
     }
   }
+  async deletedFilterData(req, res) {
+    try {
+      const { search, startDate, endDate, page = 1, limit = 10, index = false } = req.query;
+      // console.log(req.query)
+      let defaultLast30Days = false;
+      let order = 1
+      if(index == 'true' || index === 'yes'){
+        defaultLast30Days = true
+        order = -1
+      }
+      const isActive = false
+      const query = buildFilterQuery(
+        { search, startDate, endDate },
+        { searchFields: ['tujuan', 'no_seri'], defaultLast30Days, isActive }
+      );
+  
+      const data = await CF.paginate(query, {
+        select : '-__v -isActive -createdAt -updatedAt',
+        page,
+        limit,
+        sort: { tanggal: order },
+      });
+      if (!data) throw {code: 402, message:'FAILED_FETCH_DELETED_DATA_CF'}
+      res.status(200).json({ 
+                          status: true,
+                          message: 'SUCCESS_FETCH_DELETED_DATA_CF', 
+                          ...data })
+    } catch (error) {
+      console.log(error)
+      res.status(error.code || 500).json({ 
+        status: false,
+        message: error.message })
+    }
+  }
 
 
   // async anu(req,res){
