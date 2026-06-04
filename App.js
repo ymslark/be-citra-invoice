@@ -20,10 +20,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 console.log(process.cwd());
-const env = dotenv.config().parsed
+dotenv.config()
+const env = process.env
 const app = express()
 
-app.use(cors({ origin: ['http://localhost:3000','http://localhost:8000', env.FE_CLIENT], Credentials: true }, ))
+app.use(cors({ origin: ['http://localhost:3000','http://localhost:8000', env.FE_CLIENT], credentials: true }, ))
 // app.use(cors({ origin: '*' }, ))
 app.use(expressMonitor())
 app.use(express.json())
@@ -60,8 +61,9 @@ app.use((err, req, res, next) => {
 //panggil fungsi mongodb connection
 connection()
 console.log(new Date().toString())
-app.listen(env.APP_PORT, () => {
-    console.log(`Server started on port ${env.APP_PORT}`);
+const port = env.APP_PORT || 8000
+app.listen(port, () => {
+    console.log(`Server started on port ${port}`);
 });
 // if(error){
 //     console.error('Failed to connect to MongoDB', error);

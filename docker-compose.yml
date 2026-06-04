@@ -1,0 +1,43 @@
+services:
+  app:
+    build: .
+    container_name: citra-invoice-api
+    ports:
+      - "${APP_PORT:-8000}:${APP_PORT:-8000}"
+    environment:
+      APP_PORT: ${APP_PORT:-8000}
+      MONGODB_URI: mongodb://mongo:27017
+      MONGODB_NAME: ${MONGODB_NAME:-citra_invoice}
+      MONGODB_USERNAME: ""
+      MONGODB_PASSWORD: ""
+      JWT_ACCESS_TOKEN_SECRET: ${JWT_ACCESS_TOKEN_SECRET:-local_access_secret}
+      JWT_ACCESS_TOKEN_EXPIRATION_TIME: ${JWT_ACCESS_TOKEN_EXPIRATION_TIME:-15m}
+      JWT_REFRESH_TOKEN_SECRET: ${JWT_REFRESH_TOKEN_SECRET:-local_refresh_secret}
+      JWT_REFRESH_TOKEN_EXPIRATION_TIME: ${JWT_REFRESH_TOKEN_EXPIRATION_TIME:-7d}
+      FE_CLIENT: ${FE_CLIENT:-http://localhost:3000}
+      BASE_URL: ${BASE_URL:-http://localhost:8000}
+      IMAGE_URL_PATH: ${IMAGE_URL_PATH:-http://localhost:8000/public/images/}
+      CONFIG_ID: ${CONFIG_ID:-}
+      TZ: Asia/Jakarta
+    volumes:
+      - uploads_data:/app/uploads
+    depends_on:
+      mongo:
+        condition: service_healthy
+
+  mongo:
+    image: mongo:7
+    container_name: citra-invoice-mongo
+    ports:
+      - "${MONGO_PORT:-27017}:27017"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mongo_data:
+  uploads_data:

@@ -3,8 +3,12 @@ import path from 'path';
 import fs from 'fs';
 
 const folderPath = 'uploads/faktur';
-if (!fs.existsSync(folderPath)) {
-  fs.mkdirSync(folderPath, { recursive: true });
+const compressedFolderPath = 'uploads/compressed';
+
+for (const pathToEnsure of [folderPath, compressedFolderPath]) {
+  if (!fs.existsSync(pathToEnsure)) {
+    fs.mkdirSync(pathToEnsure, { recursive: true });
+  }
 }
 
 const storage = multer.diskStorage({

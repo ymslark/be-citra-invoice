@@ -1,7 +1,8 @@
 import jsonwebtoken from 'jsonwebtoken'
 import dotenv from 'dotenv'
 
-const env = dotenv.config().parsed
+dotenv.config()
+const env = process.env
 
 const jwtAuth = () =>{
     return async (req,res,next) =>{
