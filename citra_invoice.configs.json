@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "665f00000000000000000001"
+  },
+  "ppn": 11,
+  "rekening": {
+    "cf": [
+      {
+        "no_rekening": "7035622888",
+        "nama_bank": "BCA",
+        "atas_nama": "William Prayogo"
+      }
+    ],
+    "cii": [
+      {
+        "no_rekening": "7035105557",
+        "nama_bank": "BCA",
+        "atas_nama": "CV. Mulia Utama Indonesia"
+      }
+    ],
+    "sci": [
+      {
+        "no_rekening": "5222227071",
+        "nama_bank": "BCA",
+        "atas_nama": "PT. Sentral Citra Indonesia"
+      }
+    ]
+  },
+  "isActive": true
+}]

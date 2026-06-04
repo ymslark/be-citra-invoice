@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6a1f9146548eae1993eaa0c8"
+  },
+  "nama": "Rak Hijau",
+  "kode": "FUR-0001",
+  "satuan": "pcs",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9146548eae1993eaa0c9"
+  },
+  "nama": "Meja TV Kayu Mahoni",
+  "kode": "FUR-0002",
+  "satuan": "pcs",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9146548eae1993eaa0ca"
+  },
+  "nama": "Kursi Elegan",
+  "kode": "FUR-0003",
+  "satuan": "pcs",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9146548eae1993eaa0cb"
+  },
+  "nama": "Credenza Elegan",
+  "kode": "FUR-0004",
+  "satuan": "pcs",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9146548eae1993eaa0cc"
+  },
+  "nama": "Credenza Kayu Pinus",
+  "kode": "FUR-0005",
+  "satuan": "pcs",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9146548eae1993eaa0cd"
+  },
+  "nama": "Rak Buku Industrial",
+  "kode": "FUR-0006",
+  "satuan": "pcs",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9146548eae1993eaa0ce"
+  },
+  "nama": "Meja Konsul Biru",
+  "kode": "FUR-0007",
+  "satuan": "pcs",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9146548eae1993eaa0cf"
+  },
+  "nama": "Sofa Kayu Pinus",
+  "kode": "FUR-0008",
+  "satuan": "pcs",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9146548eae1993eaa0d0"
+  },
+  "nama": "Lemari Pakaian Minimalis",
+  "kode": "FUR-0009",
+  "satuan": "pcs",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9146548eae1993eaa0d1"
+  },
+  "nama": "Meja Makan Industrial",
+  "kode": "FUR-0010",
+  "satuan": "pcs",
+  "isActive": true
+}]

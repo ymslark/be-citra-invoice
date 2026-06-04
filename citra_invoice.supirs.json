@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "6a1f9693548eae1993eaa0d9"
+  },
+  "nama_supir": "Budi Santoso",
+  "no_hp": "081234567890",
+  "no_kendaraan": "B 1234 CD",
+  "rating": 4.8,
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9693548eae1993eaa0da"
+  },
+  "nama_supir": "Agus Setiawan",
+  "no_hp": "081298765432",
+  "no_kendaraan": "B 7788 XY",
+  "rating": 4.6,
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9693548eae1993eaa0db"
+  },
+  "nama_supir": "Dedi Kurniawan",
+  "no_hp": "082112223333",
+  "no_kendaraan": "D 4567 AB",
+  "rating": 4.7,
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9693548eae1993eaa0dc"
+  },
+  "nama_supir": "Joko Prasetyo",
+  "no_hp": "085677889900",
+  "no_kendaraan": "F 9012 JK",
+  "rating": 4.5,
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a1f9693548eae1993eaa0dd"
+  },
+  "nama_supir": "Rizky Maulana",
+  "no_hp": "087812345678",
+  "no_kendaraan": "B 3344 EF",
+  "rating": 4.9,
+  "isActive": true
+}]
