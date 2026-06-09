@@ -2,7 +2,8 @@
 import Config from '../models/Config.js'
 import dotenv from 'dotenv'
 
-const env = dotenv.config().parsed
+dotenv.config()
+const env = process.env
 
 const getConfig = async () => {
   const config = await Config.findOne({_id: env.CONFIG_ID}).select('ppn rekening')

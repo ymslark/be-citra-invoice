@@ -5,7 +5,8 @@ import usernameExist from '../libraries/usernameExist.js'
 import bcrypt from 'bcrypt'
 import jsonwebtoken from 'jsonwebtoken'
 
-const env = dotenv.config().parsed
+dotenv.config()
+const env = process.env
 
 const generateAccessToken = async (payload) =>{
     return jsonwebtoken.sign(payload,

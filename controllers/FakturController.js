@@ -17,7 +17,8 @@ import { buildFilterQuery } from "../libraries/db/buildFilterQuery.js";
 
 import dotenv from 'dotenv'
 import mongoose from 'mongoose'
-const env = dotenv.config().parsed
+dotenv.config()
+const env = process.env
 
 
 const imageURLPath = (filename) => {
