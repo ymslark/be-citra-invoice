@@ -158,6 +158,7 @@ class CIIController {
   async store(req,res){
     try {
       var form = req.body
+      console.log(req.body, 'data')
       let requiredProperty = ['tanggal', 'tujuan', 'tempo', 'hal', 'alamat',
                                 'ppn','interior', 'instalasi', 'ongkos_kirim', 'no_hp']
       let checkedProperty = checkProperty(req.body,requiredProperty)      
@@ -173,7 +174,6 @@ class CIIController {
       data['rekening']= checkProperty(form, requiredProperty)
 
       data['interior'] = checkInterior(form.interior)
-      
       let no_seri = await getSerialNumber('CII', form.tanggal)
       
       if(!no_seri) throw {code: 500, message: 'SERVER_ERROR'}

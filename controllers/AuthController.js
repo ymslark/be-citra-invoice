@@ -73,6 +73,56 @@ class AuthController {
                 })
             }
     }
+    // async registerWithCode(req, res) {
+    //         try {
+    //             if(!req.body.fullname) {throw {code: 400, message: 'FULLNAME_IS_REQUIRED'}}
+    //             // if(!req.body.email) {throw {code: 400, message: 'EMAIL_IS_REQUIRED'}}
+    //             if(!req.body.password) {throw {code: 400, message: 'PASSWORD_IS_REQUIRED'}}
+    //             if(req.body.password.length < 6) {throw {code: 400, message: 'PASSWORD_MINIMUM_6_CHARACTERS'}}
+
+    //             // const isEmailExist = await emailExist(req.body.email)
+    //             // if(isEmailExist) {throw {code:409, message: "EMAIL_ALREADY_EXIST"}}
+    //             const isUsernameExist = await usernameExist(req.body.username)
+    //             if(isUsernameExist) {throw {code:409, message: "USERNAME_ALREADY_EXIST"}}
+                
+    //             const salt = await bcrypt.genSalt(10)
+    //             const hash = await bcrypt.hash(req.body.password, salt)
+
+    //             const user = await User.create({
+    //                 fullname: req.body.fullname,
+    //                 username: req.body.username,
+    //                 email: Math.random().toString(36).substring(2) + "@example.com", //generate random email since email is not required
+    //                 role: req.body.role,
+    //                 password: hash
+    //             })
+    //             if (!user) {throw ({code: 500, message: "USER_REGISTER_FAILED"})}
+
+    //             const payload = {id: user.id, role:user.role}
+    //             console.log(payload)
+
+    //             const accessToken = await generateAccessToken(payload)
+    //             const refreshToken = await generateRefreshToken(payload)
+
+    //             return res.status(200)
+    //                     .json({
+    //                         status: true,
+    //                         message: 'USER_REGISTER_SUCCESS',
+    //                         accessToken,
+    //                         refreshToken,
+    //                         user: {
+    //                             fullName: user.fullname,
+    //                             role: user.role,
+    //                         }
+    //                     })
+    //         } catch (error) {
+    //             console.log(error)
+    //             return res.status(error.code || 500)
+    //             .json({
+    //                 status:false, 
+    //                 message: error.message
+    //             })
+    //         }
+    // }
 
     async login(req, res){
             try {
