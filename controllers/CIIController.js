@@ -158,7 +158,6 @@ class CIIController {
   async store(req,res){
     try {
       var form = req.body
-      console.log(req.body, 'data')
       let requiredProperty = ['tanggal', 'tujuan', 'tempo', 'hal', 'alamat',
                                 'ppn','interior', 'instalasi', 'ongkos_kirim', 'no_hp']
       let checkedProperty = checkProperty(req.body,requiredProperty)      
