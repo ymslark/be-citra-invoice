@@ -83,15 +83,15 @@ router.get('/supir', jwtAuth(), checkPermission(roles), SupirController.index)
 router.get('/supir/detail/:id', jwtAuth(), checkPermission(roles), SupirController.show)
 router.get('/supir/search/:keyword', jwtAuth(), checkPermission(roles), SupirController.search)
 router.put('/supir/:id', jwtAuth(), checkPermission(roles), SupirController.update)
-router.delete('/supir/:id', jwtAuth(), checkPermission(['super_admin', 'developer']), SupirController.destroy)
-router.put('/supir/restore/:id', jwtAuth(), checkPermission(['super_admin', 'developer']), SupirController.restore)
+router.delete('/supir/:id', jwtAuth(), checkPermission(['super_admin', 'developer', 'admin']), SupirController.destroy)
+router.put('/supir/restore/:id', jwtAuth(), checkPermission(['super_admin', 'developer', 'admin']), SupirController.restore)
 
 
 // router.get('/CF/yyy', jwtAuth(), checkPermission(roles), CFController.anu)
 // router.get('/CF', jwtAuth(), checkPermission(roles), CFController.index)
 
-router.get('/Config', jwtAuth(), checkPermission(roles), ConfigController.getConfig)
-router.put('/Config', jwtAuth(), checkPermission(roles), ConfigController.update)
+router.get('/Config', jwtAuth(), checkPermission(['superadmin', 'super_admin', 'developer']), ConfigController.getConfig)
+router.put('/Config', jwtAuth(), checkPermission(['superadmin', 'super_admin', 'developer']), ConfigController.update)
 
 
 router.get('/CF', jwtAuth(), checkPermission(roles), CFController.index)
@@ -141,11 +141,11 @@ router.get('/Barang/deleted', jwtAuth(), checkPermission(roles), BarangControlle
 router.get('/Barang/detail/:id', jwtAuth(), checkPermission(roles), BarangController.show)
 router.get('/Barang/filterData', jwtAuth(), checkPermission(roles), BarangController.filterData)
 // router.get('/Barang/getDocumentsByPeriod', jwtAuth(), checkPermission(roles), BarangController.getDocumentsByPeriod)
-router.post('/Barang', jwtAuth(), checkPermission(['super_admin', 'developer']), BarangController.store)
-router.post('/Barang/bulkStore', jwtAuth(), checkPermission(['super_admin', 'developer']), BarangController.bulkStore)
+router.post('/Barang', jwtAuth(), checkPermission(['super_admin', 'developer', 'admin']), BarangController.store)
+router.post('/Barang/bulkStore', jwtAuth(), checkPermission(['super_admin', 'developer', 'admin']), BarangController.bulkStore)
 router.put('/Barang/:id', jwtAuth(), checkPermission(roles), BarangController.update)
-router.patch('/Barang/restore/:id', jwtAuth(), checkPermission(['super_admin', 'developer']), BarangController.restore)
-router.delete('/Barang/:id', jwtAuth(), checkPermission(['super_admin', 'developer']), BarangController.destroy)
+router.patch('/Barang/restore/:id', jwtAuth(), checkPermission(['super_admin', 'developer', 'admin']), BarangController.restore)
+router.delete('/Barang/:id', jwtAuth(), checkPermission(['super_admin', 'developer', 'admin']), BarangController.destroy)
 
 
 
